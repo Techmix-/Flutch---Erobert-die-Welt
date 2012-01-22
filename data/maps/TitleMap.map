@@ -1,0 +1,14 @@
+BaseMap=TitleMap.jpg
+MapName=TitleMap
+SkyBox=3impact
+Scale=32,3,48
+Startpoints=100,100
+MapConfig=Cmap:_ColorMap.jpg;Dmap:_Bitplane.png;Hmap:_HightMap.jpg;Nmap:_NormalMap.jpg
+HightMap=_HightMap.jpg;Blur=0.12,3;Invert=0;SizeX=256;SizeY=256
+NormalMap=_NormalMap.jpg;FileA=_ColorMap.jpg;FileB=_DetailMap.jpg;Prozent=70;SizeX=4096;SizeY=4096
+MixedMap=_MixedMap.jpg;FileA=_DetailMap.jpg;FileB=_NormalMap.jpg;Mask=DGSuperMask.gif;Prozent=50;SizeX=4096;SizeY=4096
+ColorMap=_ColorMap.jpg;Blur=0.6,2;DiffuseUV=1;SizeX=1024;SizeY=1024
+MacroMap=_MacroMap.jpg;FileA=_ColorMap.jpg;FileB=land_default.png;Mask=DGSuperMask.gif;DiffuseUV=0;FillFX=1;Prozent=50;SizeX=4096;SizeY=4096
+MixedMacroMap=_MixedMacroMap.jpg;File=_ColorMap.jpg;Mask=DGSuperMask.gif;Tex1=green3.png;Tex2=land_default.png;Tex3=rockwall.jpg;Tex4=stones.jpg;DiffuseUV=0;FillFX=1;Prozent=50;SizeX=4096;SizeY=4096
+DetailMap=_DetailMap.png;File=detailmap3.jpg;Alpha=60;Invert=0;DiffuseUV=0;FillFX=1;SizeX=2048;SizeY=2048
+BitplaneMap=_Bitplane.png;Tex1=UE3DetailRock.png;Tex2=UE3DetailGrass.png;Tex3=UE3DetailRust.png;Tex4=UE3DetailMarble.png;Alpha=70;DiffuseUV=0;FillFX=1;SizeX=4096;SizeY=4096

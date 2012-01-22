@@ -1,0 +1,19 @@
+# File created by luuv TSX
+# Created on: Thu Feb 12 13:53:03 2009 -1
+
+newmtl firA000
+Ns 0
+Ka 1.000000 1.000000 1.000000
+Kd 0.737255 0.737255 0.737255
+Ks 0.000000 0.000000 0.000000
+d 0.996078
+map_Kd firtex.tga 
+
+newmtl firA001
+Ns 0
+Ka 1.000000 1.000000 1.000000
+Kd 0.737255 0.737255 0.737255
+Ks 0.000000 0.000000 0.000000
+d 0.996078
+map_Kd firbark.bmp 
+# End

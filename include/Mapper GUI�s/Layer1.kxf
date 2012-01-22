@@ -1,0 +1,3108 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<object type="TAForm" name="MapperGUI">
+	<properties>
+		<property name="Left" vt="Int8">15</property>
+		<property name="Top" vt="Int16">143</property>
+		<property name="Width" vt="Int16">1000</property>
+		<property name="Height" vt="Int16">489</property>
+		<property name="Caption" vt="String">Mapper - Layer-1</property>
+		<property name="Color" vt="Ident">clBtnFace</property>
+		<property name="Font.Charset" vt="Ident">DEFAULT_CHARSET</property>
+		<property name="Font.Color" vt="Ident">clWindowText</property>
+		<property name="Font.Height" vt="Int8">-11</property>
+		<property name="Font.Name" vt="String">MS Sans Serif</property>
+		<property name="Font.Style" vt="Set"/>
+		<property name="OldCreateOrder" vt="False">False</property>
+		<property name="Position" vt="Ident">poDesktopCenter</property>
+		<property name="Visible" vt="True">True</property>
+		<property name="Style" vt="Int32">-1798635520</property>
+		<property name="ExStyle" vt="Int16">256</property>
+		<property name="Version" vt="String">1.04</property>
+		<property name="FormOptOnEvent" vt="False">False</property>
+		<property name="FormOptExpVars" vt="False">False</property>
+		<property name="FormOptPopulate" vt="False">False</property>
+		<property name="FormOptVarsForSet" vt="False">False</property>
+		<property name="FormOptIndentChar" vt="Int8">0</property>
+		<property name="FormOptIndentCount" vt="Int8">1</property>
+		<property name="FormOptIndentInit" vt="Int8">0</property>
+		<property name="FormOptVarScope" vt="Int8">0</property>
+		<property name="Resizing" vt="Set">DockLeft, DockTop</property>
+		<property name="PixelsPerInch" vt="Int8">96</property>
+		<property name="TextHeight" vt="Int8">13</property>
+	</properties>
+	<components>
+		<object type="TAGroup" name="Mapper_Group1">
+			<properties>
+				<property name="Left" vt="Int16">544</property>
+				<property name="Top" vt="Int8">48</property>
+				<property name="Width" vt="Int16">441</property>
+				<property name="Height" vt="Int16">400</property>
+				<property name="CtrlStyle" vt="Int32">1342308359</property>
+				<property name="CtrlExStyle" vt="Int8">32</property>
+				<property name="Caption" vt="String">Tools: Layer-1</property>
+				<property name="TabOrder" vt="Int8">0</property>
+				<property name="Resizing" vt="Set">DockLeft, DockRight, DockTop, DockHeight</property>
+			</properties>
+			<components>
+				<object type="TATab" name="Mapper_Tab1">
+					<properties>
+						<property name="Left" vt="Int8">8</property>
+						<property name="Top" vt="Int8">16</property>
+						<property name="Width" vt="Int16">425</property>
+						<property name="Height" vt="Int16">377</property>
+						<property name="ActivePage" vt="Ident">Tab1_1</property>
+						<property name="Font.Charset" vt="Ident">DEFAULT_CHARSET</property>
+						<property name="Font.Color" vt="Ident">clWindowText</property>
+						<property name="Font.Height" vt="Int8">-11</property>
+						<property name="Font.Name" vt="String">Arial</property>
+						<property name="Font.Style" vt="Set"/>
+						<property name="ParentFont" vt="False">False</property>
+						<property name="TabOrder" vt="Int8">0</property>
+						<property name="CtrlStyle" vt="Int32">1409482752</property>
+						<property name="CtrlExStyle" vt="Int8">0</property>
+						<property name="Resizing" vt="Set">DockAuto, DockLeft, DockRight, DockTop, DockHeight</property>
+					</properties>
+					<components>
+						<object type="TTabSheet" name="Tab1_1">
+							<properties>
+								<property name="Caption" vt="String">HightMap</property>
+								<property name="Font.Charset" vt="Ident">DEFAULT_CHARSET</property>
+								<property name="Font.Color" vt="Ident">clWindowText</property>
+								<property name="Font.Height" vt="Int8">-11</property>
+								<property name="Font.Name" vt="String">MS Sans Serif</property>
+								<property name="Font.Style" vt="Set"/>
+								<property name="ImageIndex" vt="Int8">-1</property>
+								<property name="ParentFont" vt="False">False</property>
+							</properties>
+							<components>
+								<object type="TAGroup" name="HightMap_Group1">
+									<properties>
+										<property name="Left" vt="Int8">4</property>
+										<property name="Top" vt="Int16">327</property>
+										<property name="Width" vt="Int16">409</property>
+										<property name="Height" vt="Int16">313</property>
+										<property name="CtrlStyle" vt="Int32">1342308359</property>
+										<property name="CtrlExStyle" vt="Int8">0</property>
+										<property name="Caption" vt="String">HightMap: Basics</property>
+										<property name="TabOrder" vt="Int8">3</property>
+										<property name="Resizing" vt="Set">DockAuto, DockLeft, DockRight, DockTop, DockHeight</property>
+									</properties>
+									<components>
+										<object type="TACheckbox" name="HightMap_Checkbox10">
+											<properties>
+												<property name="Left" vt="Int8">16</property>
+												<property name="Top" vt="Int16">168</property>
+												<property name="Width" vt="Int8">121</property>
+												<property name="Height" vt="Int8">17</property>
+												<property name="Caption" vt="String">Blur-FX Aktiv</property>
+												<property name="Checked" vt="True">True</property>
+												<property name="State" vt="Ident">cbChecked</property>
+												<property name="TabOrder" vt="Int8">0</property>
+												<property name="CtrlStyle" vt="Int32">1342242819</property>
+												<property name="CtrlExStyle" vt="Int8">0</property>
+												<property name="Resizing" vt="Set">DockLeft, DockTop, DockWidth, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+										<object type="TASlider" name="HightMap_Slider14">
+											<properties>
+												<property name="Left" vt="Int8">8</property>
+												<property name="Top" vt="Int16">192</property>
+												<property name="Width" vt="Int8">102</property>
+												<property name="Height" vt="Int8">37</property>
+												<property name="Hint" vt="String">Blurring Scaling. 0.00 - 1.00</property>
+												<property name="Max" vt="Int8">100</property>
+												<property name="Min" vt="Int8">1</property>
+												<property name="Position" vt="Int8">12</property>
+												<property name="TabOrder" vt="Int8">1</property>
+												<property name="ThumbLength" vt="Int8">22</property>
+												<property name="CtrlStyle" vt="Int32">1342177281</property>
+												<property name="CtrlExStyle" vt="Int8">0</property>
+												<property name="Resizing" vt="Set">DockLeft, DockTop, DockWidth, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+										<object type="TASlider" name="HightMap_Slider15">
+											<properties>
+												<property name="Left" vt="Int16">208</property>
+												<property name="Top" vt="Int16">192</property>
+												<property name="Width" vt="Int8">102</property>
+												<property name="Height" vt="Int8">37</property>
+												<property name="Hint" vt="String">Blurring Interpolation. 0 - 4</property>
+												<property name="Max" vt="Int8">4</property>
+												<property name="Position" vt="Int8">3</property>
+												<property name="TabOrder" vt="Int8">2</property>
+												<property name="ThumbLength" vt="Int8">22</property>
+												<property name="CtrlStyle" vt="Int32">1342177281</property>
+												<property name="CtrlExStyle" vt="Int8">0</property>
+												<property name="Resizing" vt="Set">DockLeft, DockTop, DockWidth, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+										<object type="TAInput" name="HightMap_Input14">
+											<properties>
+												<property name="Left" vt="Int8">112</property>
+												<property name="Top" vt="Int16">208</property>
+												<property name="Width" vt="Int8">89</property>
+												<property name="Height" vt="Int8">21</property>
+												<property name="TabOrder" vt="Int8">3</property>
+												<property name="CtrlStyle" vt="Int32">1342242944</property>
+												<property name="CtrlExStyle" vt="Int16">512</property>
+												<property name="Resizing" vt="Set">DockLeft, DockTop, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+										<object type="TAInput" name="HightMap_Input15">
+											<properties>
+												<property name="Left" vt="Int16">312</property>
+												<property name="Top" vt="Int16">208</property>
+												<property name="Width" vt="Int8">89</property>
+												<property name="Height" vt="Int8">21</property>
+												<property name="TabOrder" vt="Int8">4</property>
+												<property name="CtrlStyle" vt="Int32">1342242944</property>
+												<property name="CtrlExStyle" vt="Int16">512</property>
+												<property name="Resizing" vt="Set">DockLeft, DockRight, DockTop, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+										<object type="TALabel" name="HightMap_Label14">
+											<properties>
+												<property name="Left" vt="Int8">112</property>
+												<property name="Top" vt="Int16">190</property>
+												<property name="Width" vt="Int8">89</property>
+												<property name="Height" vt="Int8">17</property>
+												<property name="AutoSize" vt="False">False</property>
+												<property name="Caption" vt="String">Blur Scale</property>
+												<property name="TabOrder" vt="Int8">5</property>
+												<property name="HaveVariable" vt="False">False</property>
+												<property name="CtrlStyle" vt="Int32">1342177537</property>
+												<property name="CtrlExStyle" vt="Int8">0</property>
+												<property name="Resizing" vt="Set">DockLeft, DockTop, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+										<object type="TALabel" name="HightMap_Label15">
+											<properties>
+												<property name="Left" vt="Int16">312</property>
+												<property name="Top" vt="Int16">190</property>
+												<property name="Width" vt="Int8">89</property>
+												<property name="Height" vt="Int8">17</property>
+												<property name="AutoSize" vt="False">False</property>
+												<property name="Caption" vt="String">Blur Interpolation</property>
+												<property name="TabOrder" vt="Int8">6</property>
+												<property name="HaveVariable" vt="False">False</property>
+												<property name="CtrlStyle" vt="Int32">1342177537</property>
+												<property name="CtrlExStyle" vt="Int8">0</property>
+												<property name="Resizing" vt="Set">DockLeft, DockRight, DockTop, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+										<object type="TACheckbox" name="HightMap_Checkbox11">
+											<properties>
+												<property name="Left" vt="Int8">16</property>
+												<property name="Top" vt="Int16">144</property>
+												<property name="Width" vt="Int8">121</property>
+												<property name="Height" vt="Int8">17</property>
+												<property name="Hint" vt="String">Die Hightmap Invertieren</property>
+												<property name="Caption" vt="String">Invert-FX Aktiv</property>
+												<property name="TabOrder" vt="Int8">7</property>
+												<property name="CtrlStyle" vt="Int32">1342242819</property>
+												<property name="CtrlExStyle" vt="Int8">0</property>
+												<property name="Resizing" vt="Set">DockLeft, DockTop, DockWidth, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+										<object type="TALabel" name="HightMap_Label10">
+											<properties>
+												<property name="Left" vt="Int8">112</property>
+												<property name="Top" vt="Int8">30</property>
+												<property name="Width" vt="Int8">89</property>
+												<property name="Height" vt="Int8">17</property>
+												<property name="AutoSize" vt="False">False</property>
+												<property name="Caption" vt="UTF8String">Grцsse-X</property>
+												<property name="TabOrder" vt="Int8">8</property>
+												<property name="HaveVariable" vt="False">False</property>
+												<property name="CtrlStyle" vt="Int32">1342177537</property>
+												<property name="CtrlExStyle" vt="Int8">0</property>
+												<property name="Resizing" vt="Set">DockLeft, DockTop, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+										<object type="TASlider" name="HightMap_Slider10">
+											<properties>
+												<property name="Left" vt="Int8">8</property>
+												<property name="Top" vt="Int8">32</property>
+												<property name="Width" vt="Int8">102</property>
+												<property name="Height" vt="Int8">37</property>
+												<property name="Hint" vt="UTF8String">Die Grцsse der Highmap bestimmen. 64 - 1024</property>
+												<property name="Max" vt="Int8">12</property>
+												<property name="Position" vt="Int8">2</property>
+												<property name="TabOrder" vt="Int8">9</property>
+												<property name="ThumbLength" vt="Int8">22</property>
+												<property name="CtrlStyle" vt="Int32">1342177281</property>
+												<property name="CtrlExStyle" vt="Int8">0</property>
+												<property name="Resizing" vt="Set">DockLeft, DockTop, DockWidth, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+										<object type="TAInput" name="HightMap_Input10">
+											<properties>
+												<property name="Left" vt="Int8">112</property>
+												<property name="Top" vt="Int8">48</property>
+												<property name="Width" vt="Int8">89</property>
+												<property name="Height" vt="Int8">21</property>
+												<property name="TabOrder" vt="Int8">10</property>
+												<property name="CtrlStyle" vt="Int32">1342242944</property>
+												<property name="CtrlExStyle" vt="Int16">512</property>
+												<property name="Resizing" vt="Set">DockLeft, DockTop, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+										<object type="TALabel" name="HightMap_Label12">
+											<properties>
+												<property name="Left" vt="Int8">112</property>
+												<property name="Top" vt="Int8">94</property>
+												<property name="Width" vt="Int8">89</property>
+												<property name="Height" vt="Int8">17</property>
+												<property name="AutoSize" vt="False">False</property>
+												<property name="Caption" vt="String">Irrlicht Scale X/Y</property>
+												<property name="TabOrder" vt="Int8">11</property>
+												<property name="HaveVariable" vt="False">False</property>
+												<property name="CtrlStyle" vt="Int32">1342177537</property>
+												<property name="CtrlExStyle" vt="Int8">0</property>
+												<property name="Resizing" vt="Set">DockLeft, DockTop, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+										<object type="TASlider" name="HightMap_Slider12">
+											<properties>
+												<property name="Left" vt="Int8">8</property>
+												<property name="Top" vt="Int8">96</property>
+												<property name="Width" vt="Int8">102</property>
+												<property name="Height" vt="Int8">37</property>
+												<property name="Hint" vt="String">Breiten &amp; Tiefen Scaling. 1 - 128</property>
+												<property name="Max" vt="Int16">128</property>
+												<property name="Min" vt="Int8">1</property>
+												<property name="Position" vt="Int8">32</property>
+												<property name="TabOrder" vt="Int8">12</property>
+												<property name="ThumbLength" vt="Int8">22</property>
+												<property name="CtrlStyle" vt="Int32">1342177281</property>
+												<property name="CtrlExStyle" vt="Int8">0</property>
+												<property name="Resizing" vt="Set">DockLeft, DockTop, DockWidth, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+										<object type="TAInput" name="HightMap_Input12">
+											<properties>
+												<property name="Left" vt="Int8">112</property>
+												<property name="Top" vt="Int8">112</property>
+												<property name="Width" vt="Int8">89</property>
+												<property name="Height" vt="Int8">21</property>
+												<property name="TabOrder" vt="Int8">13</property>
+												<property name="CtrlStyle" vt="Int32">1342242944</property>
+												<property name="CtrlExStyle" vt="Int16">512</property>
+												<property name="Resizing" vt="Set">DockLeft, DockTop, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+										<object type="TASlider" name="HightMap_Slider13">
+											<properties>
+												<property name="Left" vt="Int16">208</property>
+												<property name="Top" vt="Int8">96</property>
+												<property name="Width" vt="Int8">102</property>
+												<property name="Height" vt="Int8">37</property>
+												<property name="Hint" vt="UTF8String">Hцhen Scaling. 1 - 32</property>
+												<property name="Max" vt="Int8">32</property>
+												<property name="Min" vt="Int8">1</property>
+												<property name="Position" vt="Int8">3</property>
+												<property name="TabOrder" vt="Int8">14</property>
+												<property name="ThumbLength" vt="Int8">22</property>
+												<property name="CtrlStyle" vt="Int32">1342177281</property>
+												<property name="CtrlExStyle" vt="Int8">0</property>
+												<property name="Resizing" vt="Set">DockLeft, DockTop, DockWidth, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+										<object type="TALabel" name="HightMap_Label13">
+											<properties>
+												<property name="Left" vt="Int16">312</property>
+												<property name="Top" vt="Int8">94</property>
+												<property name="Width" vt="Int8">89</property>
+												<property name="Height" vt="Int8">17</property>
+												<property name="AutoSize" vt="False">False</property>
+												<property name="Caption" vt="String">Irrlicht Scale Z</property>
+												<property name="TabOrder" vt="Int8">15</property>
+												<property name="HaveVariable" vt="False">False</property>
+												<property name="CtrlStyle" vt="Int32">1342177537</property>
+												<property name="CtrlExStyle" vt="Int8">0</property>
+												<property name="Resizing" vt="Set">DockLeft, DockRight, DockTop, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+										<object type="TAInput" name="HightMap_Input13">
+											<properties>
+												<property name="Left" vt="Int16">312</property>
+												<property name="Top" vt="Int8">112</property>
+												<property name="Width" vt="Int8">89</property>
+												<property name="Height" vt="Int8">21</property>
+												<property name="TabOrder" vt="Int8">16</property>
+												<property name="CtrlStyle" vt="Int32">1342242944</property>
+												<property name="CtrlExStyle" vt="Int16">512</property>
+												<property name="Resizing" vt="Set">DockLeft, DockRight, DockTop, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+										<object type="TASlider" name="HightMap_Slider11">
+											<properties>
+												<property name="Left" vt="Int16">208</property>
+												<property name="Top" vt="Int8">32</property>
+												<property name="Width" vt="Int8">100</property>
+												<property name="Height" vt="Int8">37</property>
+												<property name="Max" vt="Int8">12</property>
+												<property name="Position" vt="Int8">2</property>
+												<property name="TabOrder" vt="Int8">17</property>
+												<property name="ThumbLength" vt="Int8">22</property>
+												<property name="CtrlStyle" vt="Int32">1342308353</property>
+												<property name="CtrlExStyle" vt="Int8">0</property>
+												<property name="Resizing" vt="Set">DockLeft, DockTop, DockWidth, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+										<object type="TALabel" name="HightMap_Label11">
+											<properties>
+												<property name="Left" vt="Int16">312</property>
+												<property name="Top" vt="Int8">30</property>
+												<property name="Width" vt="Int8">89</property>
+												<property name="Height" vt="Int8">17</property>
+												<property name="AutoSize" vt="False">False</property>
+												<property name="Caption" vt="UTF8String">Grцsse-Y</property>
+												<property name="TabOrder" vt="Int8">18</property>
+												<property name="HaveVariable" vt="False">False</property>
+												<property name="CtrlStyle" vt="Int32">1342308609</property>
+												<property name="CtrlExStyle" vt="Int8">0</property>
+												<property name="Resizing" vt="Set">DockLeft, DockRight, DockTop, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+										<object type="TAInput" name="HightMap_Input11">
+											<properties>
+												<property name="Left" vt="Int16">312</property>
+												<property name="Top" vt="Int8">48</property>
+												<property name="Width" vt="Int8">89</property>
+												<property name="Height" vt="Int8">21</property>
+												<property name="TabOrder" vt="Int8">19</property>
+												<property name="CtrlStyle" vt="Int32">1342374016</property>
+												<property name="CtrlExStyle" vt="Int16">512</property>
+												<property name="Resizing" vt="Set">DockLeft, DockRight, DockTop, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+									</components>
+								</object>
+								<object type="TAButton" name="HightMap_Button1">
+									<properties>
+										<property name="Left" vt="Int8">4</property>
+										<property name="Top" vt="Int8">5</property>
+										<property name="Width" vt="Int16">131</property>
+										<property name="Height" vt="Int8">25</property>
+										<property name="Caption" vt="String">Hightmap</property>
+										<property name="TabOrder" vt="Int8">0</property>
+										<property name="Color" vt="Ident">clBtnFace</property>
+										<property name="CtrlStyle" vt="Int32">1342373888</property>
+										<property name="CtrlExStyle" vt="Int8">0</property>
+										<property name="Resizing" vt="Set">DockLeft, DockTop, DockHeight</property>
+									</properties>
+									<components/>
+								</object>
+								<object type="TAButton" name="HightMap_Button2">
+									<properties>
+										<property name="Left" vt="Int16">138</property>
+										<property name="Top" vt="Int8">5</property>
+										<property name="Width" vt="Int16">139</property>
+										<property name="Height" vt="Int8">25</property>
+										<property name="Caption" vt="String">Bumpmap</property>
+										<property name="TabOrder" vt="Int8">1</property>
+										<property name="Color" vt="Ident">clBtnFace</property>
+										<property name="CtrlStyle" vt="Int32">1342373888</property>
+										<property name="CtrlExStyle" vt="Int8">0</property>
+										<property name="Resizing" vt="Set">DockLeft, DockTop, DockHeight</property>
+									</properties>
+									<components/>
+								</object>
+								<object type="TAButton" name="HightMap_Button3">
+									<properties>
+										<property name="Left" vt="Int16">281</property>
+										<property name="Top" vt="Int8">5</property>
+										<property name="Width" vt="Int16">131</property>
+										<property name="Height" vt="Int8">25</property>
+										<property name="Caption" vt="String">Mixedmap</property>
+										<property name="TabOrder" vt="Int8">2</property>
+										<property name="Color" vt="Ident">clBtnFace</property>
+										<property name="CtrlStyle" vt="Int32">1342373888</property>
+										<property name="CtrlExStyle" vt="Int8">0</property>
+										<property name="Resizing" vt="Set">DockLeft, DockRight, DockTop, DockHeight</property>
+									</properties>
+									<components/>
+								</object>
+								<object type="TAGroup" name="HightMap_Group2">
+									<properties>
+										<property name="Left" vt="Int8">4</property>
+										<property name="Top" vt="Int8">31</property>
+										<property name="Width" vt="Int16">409</property>
+										<property name="Height" vt="Int16">313</property>
+										<property name="CtrlStyle" vt="Int32">1342308359</property>
+										<property name="CtrlExStyle" vt="Int8">0</property>
+										<property name="Caption" vt="String">HightMap: Bumpmapping</property>
+										<property name="TabOrder" vt="Int8">4</property>
+										<property name="Resizing" vt="Set">DockAuto, DockLeft, DockRight, DockTop, DockHeight</property>
+									</properties>
+									<components>
+										<object type="TACheckbox" name="HightMap_Checkbox2">
+											<properties>
+												<property name="Left" vt="Int8">16</property>
+												<property name="Top" vt="Int8">32</property>
+												<property name="Width" vt="Int8">113</property>
+												<property name="Height" vt="Int8">17</property>
+												<property name="Caption" vt="String">BumpMap-FX Aktiv</property>
+												<property name="TabOrder" vt="Int8">0</property>
+												<property name="CtrlStyle" vt="Int32">1342242819</property>
+												<property name="CtrlExStyle" vt="Int8">0</property>
+												<property name="Resizing" vt="Set">DockLeft, DockTop, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+										<object type="TASlider" name="HightMap_Slider20">
+											<properties>
+												<property name="Left" vt="Int8">8</property>
+												<property name="Top" vt="Int8">64</property>
+												<property name="Width" vt="Int8">102</property>
+												<property name="Height" vt="Int8">37</property>
+												<property name="Max" vt="Int8">12</property>
+												<property name="Position" vt="Int8">6</property>
+												<property name="TabOrder" vt="Int8">1</property>
+												<property name="ThumbLength" vt="Int8">22</property>
+												<property name="CtrlStyle" vt="Int32">1342177281</property>
+												<property name="CtrlExStyle" vt="Int8">0</property>
+												<property name="Resizing" vt="Set">DockLeft, DockTop, DockWidth, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+										<object type="TASlider" name="HightMap_Slider21">
+											<properties>
+												<property name="Left" vt="Int16">208</property>
+												<property name="Top" vt="Int8">64</property>
+												<property name="Width" vt="Int8">102</property>
+												<property name="Height" vt="Int8">37</property>
+												<property name="Max" vt="Int8">12</property>
+												<property name="Position" vt="Int8">6</property>
+												<property name="TabOrder" vt="Int8">2</property>
+												<property name="ThumbLength" vt="Int8">22</property>
+												<property name="CtrlStyle" vt="Int32">1342177281</property>
+												<property name="CtrlExStyle" vt="Int8">0</property>
+												<property name="Resizing" vt="Set">DockLeft, DockTop, DockWidth, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+										<object type="TALabel" name="HightMap_Label20">
+											<properties>
+												<property name="Left" vt="Int8">112</property>
+												<property name="Top" vt="Int8">62</property>
+												<property name="Width" vt="Int8">89</property>
+												<property name="Height" vt="Int8">17</property>
+												<property name="AutoSize" vt="False">False</property>
+												<property name="Caption" vt="UTF8String">Grцsse-X</property>
+												<property name="TabOrder" vt="Int8">3</property>
+												<property name="HaveVariable" vt="False">False</property>
+												<property name="CtrlStyle" vt="Int32">1342177537</property>
+												<property name="CtrlExStyle" vt="Int8">0</property>
+												<property name="Resizing" vt="Set">DockLeft, DockTop, DockWidth, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+										<object type="TAInput" name="HightMap_Input20">
+											<properties>
+												<property name="Left" vt="Int8">112</property>
+												<property name="Top" vt="Int8">80</property>
+												<property name="Width" vt="Int8">89</property>
+												<property name="Height" vt="Int8">21</property>
+												<property name="TabOrder" vt="Int8">4</property>
+												<property name="CtrlStyle" vt="Int32">1342242944</property>
+												<property name="CtrlExStyle" vt="Int16">512</property>
+												<property name="Resizing" vt="Set">DockLeft, DockTop, DockWidth, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+										<object type="TALabel" name="HightMap_Label21">
+											<properties>
+												<property name="Left" vt="Int16">312</property>
+												<property name="Top" vt="Int8">62</property>
+												<property name="Width" vt="Int8">89</property>
+												<property name="Height" vt="Int8">17</property>
+												<property name="AutoSize" vt="False">False</property>
+												<property name="Caption" vt="UTF8String">Grцsse-Y</property>
+												<property name="TabOrder" vt="Int8">5</property>
+												<property name="HaveVariable" vt="False">False</property>
+												<property name="CtrlStyle" vt="Int32">1342177537</property>
+												<property name="CtrlExStyle" vt="Int8">0</property>
+												<property name="Resizing" vt="Set">DockLeft, DockRight, DockTop, DockWidth, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+										<object type="TAInput" name="HightMap_Input21">
+											<properties>
+												<property name="Left" vt="Int16">312</property>
+												<property name="Top" vt="Int8">80</property>
+												<property name="Width" vt="Int8">89</property>
+												<property name="Height" vt="Int8">21</property>
+												<property name="TabOrder" vt="Int8">6</property>
+												<property name="CtrlStyle" vt="Int32">1342242944</property>
+												<property name="CtrlExStyle" vt="Int16">512</property>
+												<property name="Resizing" vt="Set">DockLeft, DockRight, DockTop, DockWidth, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+										<object type="TASlider" name="HightMap_Slider22">
+											<properties>
+												<property name="Left" vt="Int8">8</property>
+												<property name="Top" vt="Int8">120</property>
+												<property name="Width" vt="Int8">102</property>
+												<property name="Height" vt="Int8">37</property>
+												<property name="Max" vt="Int8">32</property>
+												<property name="Position" vt="Int8">5</property>
+												<property name="TabOrder" vt="Int8">7</property>
+												<property name="ThumbLength" vt="Int8">22</property>
+												<property name="CtrlStyle" vt="Int32">1342177281</property>
+												<property name="CtrlExStyle" vt="Int8">0</property>
+												<property name="Resizing" vt="Set">DockLeft, DockTop, DockWidth, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+										<object type="TAInput" name="HightMap_Input22">
+											<properties>
+												<property name="Left" vt="Int8">112</property>
+												<property name="Top" vt="Int16">136</property>
+												<property name="Width" vt="Int8">89</property>
+												<property name="Height" vt="Int8">21</property>
+												<property name="TabOrder" vt="Int8">8</property>
+												<property name="CtrlStyle" vt="Int32">1342242944</property>
+												<property name="CtrlExStyle" vt="Int16">512</property>
+												<property name="Resizing" vt="Set">DockLeft, DockTop, DockWidth, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+										<object type="TALabel" name="HightMap_Label22">
+											<properties>
+												<property name="Left" vt="Int8">112</property>
+												<property name="Top" vt="Int8">118</property>
+												<property name="Width" vt="Int8">89</property>
+												<property name="Height" vt="Int8">17</property>
+												<property name="AutoSize" vt="False">False</property>
+												<property name="Caption" vt="String">Bump Intense</property>
+												<property name="TabOrder" vt="Int8">9</property>
+												<property name="HaveVariable" vt="False">False</property>
+												<property name="CtrlStyle" vt="Int32">1342177537</property>
+												<property name="CtrlExStyle" vt="Int8">0</property>
+												<property name="Resizing" vt="Set">DockLeft, DockTop, DockWidth, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+										<object type="TASlider" name="HightMap_Slider23">
+											<properties>
+												<property name="Left" vt="Int16">208</property>
+												<property name="Top" vt="Int8">120</property>
+												<property name="Width" vt="Int8">102</property>
+												<property name="Height" vt="Int8">37</property>
+												<property name="Max" vt="Int8">2</property>
+												<property name="Min" vt="Int8">1</property>
+												<property name="Position" vt="Int8">1</property>
+												<property name="TabOrder" vt="Int8">10</property>
+												<property name="ThumbLength" vt="Int8">22</property>
+												<property name="CtrlStyle" vt="Int32">1342177281</property>
+												<property name="CtrlExStyle" vt="Int8">0</property>
+												<property name="Resizing" vt="Set">DockLeft, DockTop, DockWidth, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+										<object type="TAInput" name="HightMap_Input23">
+											<properties>
+												<property name="Left" vt="Int16">312</property>
+												<property name="Top" vt="Int16">136</property>
+												<property name="Width" vt="Int8">89</property>
+												<property name="Height" vt="Int8">21</property>
+												<property name="TabOrder" vt="Int8">11</property>
+												<property name="CtrlStyle" vt="Int32">1342242944</property>
+												<property name="CtrlExStyle" vt="Int16">512</property>
+												<property name="Resizing" vt="Set">DockLeft, DockTop, DockWidth, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+										<object type="TALabel" name="HightMap_Label23">
+											<properties>
+												<property name="Left" vt="Int16">312</property>
+												<property name="Top" vt="Int8">118</property>
+												<property name="Width" vt="Int8">89</property>
+												<property name="Height" vt="Int8">17</property>
+												<property name="AutoSize" vt="False">False</property>
+												<property name="Caption" vt="String">Bump Scale</property>
+												<property name="TabOrder" vt="Int8">12</property>
+												<property name="HaveVariable" vt="False">False</property>
+												<property name="CtrlStyle" vt="Int32">1342177537</property>
+												<property name="CtrlExStyle" vt="Int8">0</property>
+												<property name="Resizing" vt="Set">DockLeft, DockTop, DockWidth, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+										<object type="TACheckbox" name="Checkbox1">
+											<properties>
+												<property name="Left" vt="Int8">16</property>
+												<property name="Top" vt="Int16">176</property>
+												<property name="Width" vt="Int8">121</property>
+												<property name="Height" vt="Int8">17</property>
+												<property name="Caption" vt="String">TextureMix-FX Aktiv</property>
+												<property name="TabOrder" vt="Int8">13</property>
+												<property name="CtrlStyle" vt="Int32">1342242819</property>
+												<property name="CtrlExStyle" vt="Int8">0</property>
+												<property name="Resizing" vt="Set">DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+										<object type="TALabel" name="Label1">
+											<properties>
+												<property name="Left" vt="Int8">16</property>
+												<property name="Top" vt="Int16">200</property>
+												<property name="Width" vt="Int8">92</property>
+												<property name="Height" vt="Int8">17</property>
+												<property name="AutoSize" vt="False">False</property>
+												<property name="Caption" vt="String"> Mix Texture</property>
+												<property name="TabOrder" vt="Int8">14</property>
+												<property name="HaveVariable" vt="False">False</property>
+												<property name="CtrlStyle" vt="Int32">1350566144</property>
+												<property name="CtrlExStyle" vt="Int8">0</property>
+												<property name="Resizing" vt="Set">DockLeft, DockTop, DockWidth, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+										<object type="TAInput" name="Input1">
+											<properties>
+												<property name="Left" vt="Int8">16</property>
+												<property name="Top" vt="Int16">217</property>
+												<property name="Width" vt="Int16">185</property>
+												<property name="Height" vt="Int8">21</property>
+												<property name="TabOrder" vt="Int8">15</property>
+												<property name="CtrlStyle" vt="Int32">1342242944</property>
+												<property name="CtrlExStyle" vt="Int16">512</property>
+												<property name="Resizing" vt="Set">DockLeft, DockTop, DockWidth, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+										<object type="TAButton" name="Button1">
+											<properties>
+												<property name="Left" vt="Int8">112</property>
+												<property name="Top" vt="Int16">200</property>
+												<property name="Width" vt="Int8">89</property>
+												<property name="Height" vt="Int8">17</property>
+												<property name="Caption" vt="UTF8String">Auswдhlen</property>
+												<property name="TabOrder" vt="Int8">16</property>
+												<property name="Color" vt="Ident">clBtnFace</property>
+												<property name="CtrlStyle" vt="Int32">1342390272</property>
+												<property name="CtrlExStyle" vt="Int8">0</property>
+												<property name="Resizing" vt="Set">DockLeft, DockTop, DockWidth, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+										<object type="TASlider" name="Slider1">
+											<properties>
+												<property name="Left" vt="Int16">208</property>
+												<property name="Top" vt="Int16">201</property>
+												<property name="Width" vt="Int8">102</property>
+												<property name="Height" vt="Int8">37</property>
+												<property name="Max" vt="Int8">100</property>
+												<property name="Position" vt="Int8">50</property>
+												<property name="TabOrder" vt="Int8">17</property>
+												<property name="ThumbLength" vt="Int8">22</property>
+												<property name="CtrlStyle" vt="Int32">1342308353</property>
+												<property name="CtrlExStyle" vt="Int8">0</property>
+												<property name="Resizing" vt="Set">DockLeft, DockTop, DockWidth, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+										<object type="TAInput" name="Input2">
+											<properties>
+												<property name="Left" vt="Int16">312</property>
+												<property name="Top" vt="Int16">217</property>
+												<property name="Width" vt="Int8">89</property>
+												<property name="Height" vt="Int8">21</property>
+												<property name="TabOrder" vt="Int8">18</property>
+												<property name="CtrlStyle" vt="Int32">1342374016</property>
+												<property name="CtrlExStyle" vt="Int16">512</property>
+												<property name="Resizing" vt="Set">DockLeft, DockRight, DockTop, DockWidth, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+										<object type="TALabel" name="Label2">
+											<properties>
+												<property name="Left" vt="Int16">312</property>
+												<property name="Top" vt="Int16">199</property>
+												<property name="Width" vt="Int8">89</property>
+												<property name="Height" vt="Int8">17</property>
+												<property name="AutoSize" vt="False">False</property>
+												<property name="Caption" vt="String">Deckung</property>
+												<property name="TabOrder" vt="Int8">19</property>
+												<property name="HaveVariable" vt="False">False</property>
+												<property name="CtrlStyle" vt="Int32">1342308609</property>
+												<property name="CtrlExStyle" vt="Int8">0</property>
+												<property name="Resizing" vt="Set">DockLeft, DockRight, DockTop, DockWidth, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+									</components>
+								</object>
+								<object type="TAGroup" name="HightMap_Group3">
+									<properties>
+										<property name="Left" vt="Int16">156</property>
+										<property name="Top" vt="Int16">287</property>
+										<property name="Width" vt="Int16">409</property>
+										<property name="Height" vt="Int16">313</property>
+										<property name="CtrlStyle" vt="Int32">1342308359</property>
+										<property name="CtrlExStyle" vt="Int8">0</property>
+										<property name="Caption" vt="String">HightMap: Mixedmap</property>
+										<property name="TabOrder" vt="Int8">5</property>
+										<property name="Resizing" vt="Set">DockLeft, DockRight, DockTop, DockHeight</property>
+									</properties>
+									<components>
+										<object type="TACheckbox" name="HightMap_Checkbox3">
+											<properties>
+												<property name="Left" vt="Int8">16</property>
+												<property name="Top" vt="Int8">32</property>
+												<property name="Width" vt="Int16">145</property>
+												<property name="Height" vt="Int8">17</property>
+												<property name="Caption" vt="String">MixedMap-FX Aktiv</property>
+												<property name="TabOrder" vt="Int8">0</property>
+												<property name="CtrlStyle" vt="Int32">1342242819</property>
+												<property name="CtrlExStyle" vt="Int8">0</property>
+												<property name="Resizing" vt="Set">DockLeft, DockTop, DockWidth, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+										<object type="TASlider" name="HightMap_Slider30">
+											<properties>
+												<property name="Left" vt="Int8">8</property>
+												<property name="Top" vt="Int8">56</property>
+												<property name="Width" vt="Int8">102</property>
+												<property name="Height" vt="Int8">37</property>
+												<property name="Max" vt="Int8">12</property>
+												<property name="Position" vt="Int8">10</property>
+												<property name="TabOrder" vt="Int8">1</property>
+												<property name="ThumbLength" vt="Int8">22</property>
+												<property name="CtrlStyle" vt="Int32">1342177281</property>
+												<property name="CtrlExStyle" vt="Int8">0</property>
+												<property name="Resizing" vt="Set">DockLeft, DockTop, DockWidth, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+										<object type="TASlider" name="HightMap_Slider31">
+											<properties>
+												<property name="Left" vt="Int16">208</property>
+												<property name="Top" vt="Int8">56</property>
+												<property name="Width" vt="Int8">102</property>
+												<property name="Height" vt="Int8">37</property>
+												<property name="Max" vt="Int8">12</property>
+												<property name="Position" vt="Int8">10</property>
+												<property name="TabOrder" vt="Int8">2</property>
+												<property name="ThumbLength" vt="Int8">22</property>
+												<property name="CtrlStyle" vt="Int32">1342177281</property>
+												<property name="CtrlExStyle" vt="Int8">0</property>
+												<property name="Resizing" vt="Set">DockLeft, DockTop, DockWidth, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+										<object type="TALabel" name="HightMap_Label30">
+											<properties>
+												<property name="Left" vt="Int8">112</property>
+												<property name="Top" vt="Int8">54</property>
+												<property name="Width" vt="Int8">89</property>
+												<property name="Height" vt="Int8">17</property>
+												<property name="AutoSize" vt="False">False</property>
+												<property name="Caption" vt="UTF8String">Grцsse-X</property>
+												<property name="TabOrder" vt="Int8">3</property>
+												<property name="HaveVariable" vt="False">False</property>
+												<property name="CtrlStyle" vt="Int32">1342177537</property>
+												<property name="CtrlExStyle" vt="Int8">0</property>
+												<property name="Resizing" vt="Set">DockLeft, DockTop, DockWidth, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+										<object type="TALabel" name="HightMap_Label31">
+											<properties>
+												<property name="Left" vt="Int16">312</property>
+												<property name="Top" vt="Int8">54</property>
+												<property name="Width" vt="Int8">89</property>
+												<property name="Height" vt="Int8">17</property>
+												<property name="AutoSize" vt="False">False</property>
+												<property name="Caption" vt="UTF8String">Grцsse-Y</property>
+												<property name="TabOrder" vt="Int8">4</property>
+												<property name="HaveVariable" vt="False">False</property>
+												<property name="CtrlStyle" vt="Int32">1342177537</property>
+												<property name="CtrlExStyle" vt="Int8">0</property>
+												<property name="Resizing" vt="Set">DockLeft, DockRight, DockTop, DockWidth, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+										<object type="TAInput" name="HightMap_Input30">
+											<properties>
+												<property name="Left" vt="Int8">112</property>
+												<property name="Top" vt="Int8">72</property>
+												<property name="Width" vt="Int8">89</property>
+												<property name="Height" vt="Int8">21</property>
+												<property name="TabOrder" vt="Int8">5</property>
+												<property name="CtrlStyle" vt="Int32">1342242944</property>
+												<property name="CtrlExStyle" vt="Int16">512</property>
+												<property name="Resizing" vt="Set">DockLeft, DockTop, DockWidth, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+										<object type="TAInput" name="HightMap_Input31">
+											<properties>
+												<property name="Left" vt="Int16">312</property>
+												<property name="Top" vt="Int8">72</property>
+												<property name="Width" vt="Int8">89</property>
+												<property name="Height" vt="Int8">21</property>
+												<property name="TabOrder" vt="Int8">6</property>
+												<property name="CtrlStyle" vt="Int32">1342242944</property>
+												<property name="CtrlExStyle" vt="Int16">512</property>
+												<property name="Resizing" vt="Set">DockLeft, DockRight, DockTop, DockWidth, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+										<object type="TALabel" name="HightMap_Label32">
+											<properties>
+												<property name="Left" vt="Int8">16</property>
+												<property name="Top" vt="Int8">112</property>
+												<property name="Width" vt="Int8">92</property>
+												<property name="Height" vt="Int8">17</property>
+												<property name="AutoSize" vt="False">False</property>
+												<property name="Caption" vt="String"> Mix Texture</property>
+												<property name="TabOrder" vt="Int8">7</property>
+												<property name="HaveVariable" vt="False">False</property>
+												<property name="CtrlStyle" vt="Int32">1350566144</property>
+												<property name="CtrlExStyle" vt="Int8">0</property>
+												<property name="Resizing" vt="Set">DockLeft, DockTop, DockWidth, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+										<object type="TAInput" name="HightMap_Input32">
+											<properties>
+												<property name="Left" vt="Int8">16</property>
+												<property name="Top" vt="Int16">129</property>
+												<property name="Width" vt="Int16">185</property>
+												<property name="Height" vt="Int8">21</property>
+												<property name="TabOrder" vt="Int8">8</property>
+												<property name="CtrlStyle" vt="Int32">1342242944</property>
+												<property name="CtrlExStyle" vt="Int16">512</property>
+												<property name="Resizing" vt="Set">DockLeft, DockTop, DockWidth, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+										<object type="TAButton" name="HightMap_Button32">
+											<properties>
+												<property name="Left" vt="Int8">112</property>
+												<property name="Top" vt="Int8">112</property>
+												<property name="Width" vt="Int8">89</property>
+												<property name="Height" vt="Int8">17</property>
+												<property name="Caption" vt="UTF8String">Auswдhlen</property>
+												<property name="TabOrder" vt="Int8">9</property>
+												<property name="Color" vt="Ident">clBtnFace</property>
+												<property name="CtrlStyle" vt="Int32">1342390272</property>
+												<property name="CtrlExStyle" vt="Int8">0</property>
+												<property name="Resizing" vt="Set">DockLeft, DockTop, DockWidth, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+										<object type="TASlider" name="HightMap_Slider33">
+											<properties>
+												<property name="Left" vt="Int16">208</property>
+												<property name="Top" vt="Int8">113</property>
+												<property name="Width" vt="Int8">102</property>
+												<property name="Height" vt="Int8">37</property>
+												<property name="Max" vt="Int8">100</property>
+												<property name="Position" vt="Int8">50</property>
+												<property name="TabOrder" vt="Int8">10</property>
+												<property name="ThumbLength" vt="Int8">22</property>
+												<property name="CtrlStyle" vt="Int32">1342308353</property>
+												<property name="CtrlExStyle" vt="Int8">0</property>
+												<property name="Resizing" vt="Set">DockLeft, DockTop, DockWidth, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+										<object type="TAInput" name="HightMap_Input33">
+											<properties>
+												<property name="Left" vt="Int16">312</property>
+												<property name="Top" vt="Int16">129</property>
+												<property name="Width" vt="Int8">89</property>
+												<property name="Height" vt="Int8">21</property>
+												<property name="TabOrder" vt="Int8">11</property>
+												<property name="CtrlStyle" vt="Int32">1342374016</property>
+												<property name="CtrlExStyle" vt="Int16">512</property>
+												<property name="Resizing" vt="Set">DockLeft, DockRight, DockTop, DockWidth, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+										<object type="TALabel" name="HightMap_Label33">
+											<properties>
+												<property name="Left" vt="Int16">312</property>
+												<property name="Top" vt="Int8">111</property>
+												<property name="Width" vt="Int8">89</property>
+												<property name="Height" vt="Int8">17</property>
+												<property name="AutoSize" vt="False">False</property>
+												<property name="Caption" vt="String">Deckung</property>
+												<property name="TabOrder" vt="Int8">12</property>
+												<property name="HaveVariable" vt="False">False</property>
+												<property name="CtrlStyle" vt="Int32">1342308609</property>
+												<property name="CtrlExStyle" vt="Int8">0</property>
+												<property name="Resizing" vt="Set">DockLeft, DockRight, DockTop, DockWidth, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+									</components>
+								</object>
+								<object type="TAButton" name="HightMap_Button0">
+									<properties>
+										<property name="Left" vt="Int16">322</property>
+										<property name="Top" vt="Int16">317</property>
+										<property name="Width" vt="Int8">89</property>
+										<property name="Height" vt="Int8">25</property>
+										<property name="Caption" vt="UTF8String">Ьbernehmen</property>
+										<property name="TabOrder" vt="Int8">6</property>
+										<property name="Color" vt="Ident">clBtnFace</property>
+										<property name="CtrlStyle" vt="Int32">1342373888</property>
+										<property name="CtrlExStyle" vt="Int8">0</property>
+										<property name="Resizing" vt="Set">DockLeft, DockRight, DockTop, DockWidth, DockHeight</property>
+									</properties>
+									<components/>
+								</object>
+							</components>
+						</object>
+						<object type="TTabSheet" name="Tab1_2">
+							<properties>
+								<property name="Caption" vt="String">ColorMap</property>
+								<property name="Font.Charset" vt="Ident">DEFAULT_CHARSET</property>
+								<property name="Font.Color" vt="Ident">clWindowText</property>
+								<property name="Font.Height" vt="Int8">-11</property>
+								<property name="Font.Name" vt="String">MS Sans Serif</property>
+								<property name="Font.Style" vt="Set"/>
+								<property name="ImageIndex" vt="Int8">-1</property>
+								<property name="ParentFont" vt="False">False</property>
+							</properties>
+							<components>
+								<object type="TAGroup" name="ColorMap_Group1">
+									<properties>
+										<property name="Left" vt="Int8">4</property>
+										<property name="Top" vt="Int16">327</property>
+										<property name="Width" vt="Int16">409</property>
+										<property name="Height" vt="Int16">313</property>
+										<property name="CtrlStyle" vt="Int32">1342308359</property>
+										<property name="CtrlExStyle" vt="Int8">0</property>
+										<property name="Caption" vt="String">ColorMap: Basics</property>
+										<property name="TabOrder" vt="Int8">3</property>
+										<property name="Resizing" vt="Set">DockLeft, DockRight, DockTop, DockHeight</property>
+									</properties>
+									<components>
+										<object type="TACheckbox" name="ColorMap_Checkbox10">
+											<properties>
+												<property name="Left" vt="Int8">16</property>
+												<property name="Top" vt="Int16">136</property>
+												<property name="Width" vt="Int8">97</property>
+												<property name="Height" vt="Int8">17</property>
+												<property name="Caption" vt="String">Blur-FX Aktiv</property>
+												<property name="Checked" vt="True">True</property>
+												<property name="State" vt="Ident">cbChecked</property>
+												<property name="TabOrder" vt="Int8">0</property>
+												<property name="CtrlStyle" vt="Int32">1342242819</property>
+												<property name="CtrlExStyle" vt="Int8">0</property>
+												<property name="Resizing" vt="Set">DockLeft, DockTop, DockWidth, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+										<object type="TASlider" name="ColorMap_Slider12">
+											<properties>
+												<property name="Left" vt="Int8">8</property>
+												<property name="Top" vt="Int16">160</property>
+												<property name="Width" vt="Int8">102</property>
+												<property name="Height" vt="Int8">37</property>
+												<property name="Hint" vt="String">Blurring: Scale</property>
+												<property name="Max" vt="Int8">100</property>
+												<property name="Position" vt="Int8">60</property>
+												<property name="TabOrder" vt="Int8">1</property>
+												<property name="ThumbLength" vt="Int8">22</property>
+												<property name="CtrlStyle" vt="Int32">1342177281</property>
+												<property name="CtrlExStyle" vt="Int8">0</property>
+												<property name="Resizing" vt="Set">DockLeft, DockTop, DockWidth, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+										<object type="TASlider" name="ColorMap_Slider13">
+											<properties>
+												<property name="Left" vt="Int16">208</property>
+												<property name="Top" vt="Int16">160</property>
+												<property name="Width" vt="Int8">102</property>
+												<property name="Height" vt="Int8">37</property>
+												<property name="Hint" vt="String">Blurring: Interpolation</property>
+												<property name="Max" vt="Int8">4</property>
+												<property name="Position" vt="Int8">2</property>
+												<property name="TabOrder" vt="Int8">2</property>
+												<property name="ThumbLength" vt="Int8">22</property>
+												<property name="CtrlStyle" vt="Int32">1342177281</property>
+												<property name="CtrlExStyle" vt="Int8">0</property>
+												<property name="Resizing" vt="Set">DockLeft, DockTop, DockWidth, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+										<object type="TAInput" name="ColorMap_Input12">
+											<properties>
+												<property name="Left" vt="Int8">112</property>
+												<property name="Top" vt="Int16">176</property>
+												<property name="Width" vt="Int8">89</property>
+												<property name="Height" vt="Int8">21</property>
+												<property name="Hint" vt="String">Scale</property>
+												<property name="TabOrder" vt="Int8">3</property>
+												<property name="CtrlStyle" vt="Int32">1342242944</property>
+												<property name="CtrlExStyle" vt="Int16">512</property>
+												<property name="Resizing" vt="Set">DockLeft, DockTop, DockWidth, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+										<object type="TAInput" name="ColorMap_Input13">
+											<properties>
+												<property name="Left" vt="Int16">312</property>
+												<property name="Top" vt="Int16">176</property>
+												<property name="Width" vt="Int8">89</property>
+												<property name="Height" vt="Int8">21</property>
+												<property name="Hint" vt="String">Interpolation</property>
+												<property name="TabOrder" vt="Int8">4</property>
+												<property name="CtrlStyle" vt="Int32">1342242944</property>
+												<property name="CtrlExStyle" vt="Int16">512</property>
+												<property name="Resizing" vt="Set">DockLeft, DockRight, DockTop, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+										<object type="TASlider" name="ColorMap_Slider14">
+											<properties>
+												<property name="Left" vt="Int8">8</property>
+												<property name="Top" vt="Int8">80</property>
+												<property name="Width" vt="Int8">102</property>
+												<property name="Height" vt="Int8">37</property>
+												<property name="Hint" vt="String">Diffuse UV Mixing</property>
+												<property name="Max" vt="Int8">4</property>
+												<property name="Position" vt="Int8">1</property>
+												<property name="TabOrder" vt="Int8">5</property>
+												<property name="ThumbLength" vt="Int8">22</property>
+												<property name="CtrlStyle" vt="Int32">1342177281</property>
+												<property name="CtrlExStyle" vt="Int8">0</property>
+												<property name="Resizing" vt="Set">DockLeft, DockTop, DockWidth, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+										<object type="TAInput" name="ColorMap_Input14">
+											<properties>
+												<property name="Left" vt="Int8">112</property>
+												<property name="Top" vt="Int8">96</property>
+												<property name="Width" vt="Int8">89</property>
+												<property name="Height" vt="Int8">21</property>
+												<property name="TabOrder" vt="Int8">6</property>
+												<property name="CtrlStyle" vt="Int32">1342242944</property>
+												<property name="CtrlExStyle" vt="Int16">512</property>
+												<property name="Resizing" vt="Set">DockLeft, DockTop, DockWidth, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+										<object type="TASlider" name="ColorMap_Slider10">
+											<properties>
+												<property name="Left" vt="Int8">8</property>
+												<property name="Top" vt="Int8">32</property>
+												<property name="Width" vt="Int8">102</property>
+												<property name="Height" vt="Int8">37</property>
+												<property name="Max" vt="Int8">12</property>
+												<property name="Position" vt="Int8">6</property>
+												<property name="TabOrder" vt="Int8">7</property>
+												<property name="ThumbLength" vt="Int8">22</property>
+												<property name="CtrlStyle" vt="Int32">1342308353</property>
+												<property name="CtrlExStyle" vt="Int8">0</property>
+												<property name="Resizing" vt="Set">DockLeft, DockTop, DockWidth, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+										<object type="TALabel" name="ColorMap_Label10">
+											<properties>
+												<property name="Left" vt="Int8">112</property>
+												<property name="Top" vt="Int8">30</property>
+												<property name="Width" vt="Int8">89</property>
+												<property name="Height" vt="Int8">17</property>
+												<property name="AutoSize" vt="False">False</property>
+												<property name="Caption" vt="UTF8String">Grцsse-X</property>
+												<property name="TabOrder" vt="Int8">8</property>
+												<property name="HaveVariable" vt="False">False</property>
+												<property name="CtrlStyle" vt="Int32">1342308609</property>
+												<property name="CtrlExStyle" vt="Int8">0</property>
+												<property name="Resizing" vt="Set">DockLeft, DockTop, DockWidth, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+										<object type="TAInput" name="ColorMap_Input10">
+											<properties>
+												<property name="Left" vt="Int8">112</property>
+												<property name="Top" vt="Int8">48</property>
+												<property name="Width" vt="Int8">89</property>
+												<property name="Height" vt="Int8">21</property>
+												<property name="TabOrder" vt="Int8">9</property>
+												<property name="CtrlStyle" vt="Int32">1342374016</property>
+												<property name="CtrlExStyle" vt="Int16">512</property>
+												<property name="Resizing" vt="Set">DockLeft, DockTop, DockWidth, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+										<object type="TASlider" name="ColorMap_Slider11">
+											<properties>
+												<property name="Left" vt="Int16">208</property>
+												<property name="Top" vt="Int8">32</property>
+												<property name="Width" vt="Int8">102</property>
+												<property name="Height" vt="Int8">37</property>
+												<property name="Max" vt="Int8">12</property>
+												<property name="Position" vt="Int8">6</property>
+												<property name="TabOrder" vt="Int8">10</property>
+												<property name="ThumbLength" vt="Int8">22</property>
+												<property name="CtrlStyle" vt="Int32">1342308353</property>
+												<property name="CtrlExStyle" vt="Int8">0</property>
+												<property name="Resizing" vt="Set">DockLeft, DockTop, DockWidth, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+										<object type="TALabel" name="ColorMap_Label11">
+											<properties>
+												<property name="Left" vt="Int16">312</property>
+												<property name="Top" vt="Int8">30</property>
+												<property name="Width" vt="Int8">89</property>
+												<property name="Height" vt="Int8">17</property>
+												<property name="AutoSize" vt="False">False</property>
+												<property name="Caption" vt="UTF8String">Grцsse-Y</property>
+												<property name="TabOrder" vt="Int8">11</property>
+												<property name="HaveVariable" vt="False">False</property>
+												<property name="CtrlStyle" vt="Int32">1342308609</property>
+												<property name="CtrlExStyle" vt="Int8">0</property>
+												<property name="Resizing" vt="Set">DockLeft, DockRight, DockTop, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+										<object type="TAInput" name="ColorMap_Input11">
+											<properties>
+												<property name="Left" vt="Int16">312</property>
+												<property name="Top" vt="Int8">48</property>
+												<property name="Width" vt="Int8">89</property>
+												<property name="Height" vt="Int8">21</property>
+												<property name="TabOrder" vt="Int8">12</property>
+												<property name="CtrlStyle" vt="Int32">1342374016</property>
+												<property name="CtrlExStyle" vt="Int16">512</property>
+												<property name="Resizing" vt="Set">DockLeft, DockRight, DockTop, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+										<object type="TALabel" name="ColorMap_Label12">
+											<properties>
+												<property name="Left" vt="Int8">112</property>
+												<property name="Top" vt="Int16">158</property>
+												<property name="Width" vt="Int8">89</property>
+												<property name="Height" vt="Int8">17</property>
+												<property name="AutoSize" vt="False">False</property>
+												<property name="Caption" vt="String">Blur Scale</property>
+												<property name="TabOrder" vt="Int8">13</property>
+												<property name="HaveVariable" vt="False">False</property>
+												<property name="CtrlStyle" vt="Int32">1342308609</property>
+												<property name="CtrlExStyle" vt="Int8">0</property>
+												<property name="Resizing" vt="Set">DockLeft, DockTop, DockWidth, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+										<object type="TALabel" name="ColorMap_Label13">
+											<properties>
+												<property name="Left" vt="Int16">312</property>
+												<property name="Top" vt="Int16">158</property>
+												<property name="Width" vt="Int8">89</property>
+												<property name="Height" vt="Int8">17</property>
+												<property name="AutoSize" vt="False">False</property>
+												<property name="Caption" vt="String">Blur Interpolation</property>
+												<property name="TabOrder" vt="Int8">14</property>
+												<property name="HaveVariable" vt="False">False</property>
+												<property name="CtrlStyle" vt="Int32">1342308609</property>
+												<property name="CtrlExStyle" vt="Int8">0</property>
+												<property name="Resizing" vt="Set">DockLeft, DockRight, DockTop, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+										<object type="TALabel" name="ColorMap_Label14">
+											<properties>
+												<property name="Left" vt="Int8">112</property>
+												<property name="Top" vt="Int8">78</property>
+												<property name="Width" vt="Int8">89</property>
+												<property name="Height" vt="Int8">17</property>
+												<property name="AutoSize" vt="False">False</property>
+												<property name="Caption" vt="String">Diffuse-UV</property>
+												<property name="TabOrder" vt="Int8">15</property>
+												<property name="HaveVariable" vt="False">False</property>
+												<property name="CtrlStyle" vt="Int32">1342308609</property>
+												<property name="CtrlExStyle" vt="Int8">0</property>
+												<property name="Resizing" vt="Set">DockLeft, DockTop, DockWidth, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+										<object type="TALabel" name="ColorMap_Label15">
+											<properties>
+												<property name="Left" vt="Int16">216</property>
+												<property name="Top" vt="Int8">79</property>
+												<property name="Width" vt="Int8">92</property>
+												<property name="Height" vt="Int8">17</property>
+												<property name="AutoSize" vt="False">False</property>
+												<property name="Caption" vt="String"> Sky Box</property>
+												<property name="TabOrder" vt="Int8">16</property>
+												<property name="HaveVariable" vt="False">False</property>
+												<property name="CtrlStyle" vt="Int32">1350566144</property>
+												<property name="CtrlExStyle" vt="Int8">0</property>
+												<property name="Resizing" vt="Set">DockLeft, DockTop, DockWidth, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+										<object type="TAInput" name="ColorMap_Input15">
+											<properties>
+												<property name="Left" vt="Int16">216</property>
+												<property name="Top" vt="Int8">96</property>
+												<property name="Width" vt="Int16">185</property>
+												<property name="Height" vt="Int8">21</property>
+												<property name="TabOrder" vt="Int8">17</property>
+												<property name="CtrlStyle" vt="Int32">1342242944</property>
+												<property name="CtrlExStyle" vt="Int16">512</property>
+												<property name="Resizing" vt="Set">DockLeft, DockRight, DockTop, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+										<object type="TAButton" name="ColorMap_Button15">
+											<properties>
+												<property name="Left" vt="Int16">312</property>
+												<property name="Top" vt="Int8">79</property>
+												<property name="Width" vt="Int8">89</property>
+												<property name="Height" vt="Int8">17</property>
+												<property name="Caption" vt="UTF8String">Auswдhlen</property>
+												<property name="TabOrder" vt="Int8">18</property>
+												<property name="Color" vt="Ident">clBtnFace</property>
+												<property name="CtrlStyle" vt="Int32">1342390272</property>
+												<property name="CtrlExStyle" vt="Int8">0</property>
+												<property name="Resizing" vt="Set">DockLeft, DockRight, DockTop, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+									</components>
+								</object>
+								<object type="TAButton" name="ColorMap_Button1">
+									<properties>
+										<property name="Left" vt="Int8">4</property>
+										<property name="Top" vt="Int8">5</property>
+										<property name="Width" vt="Int16">131</property>
+										<property name="Height" vt="Int8">25</property>
+										<property name="Caption" vt="String">Colormap</property>
+										<property name="TabOrder" vt="Int8">0</property>
+										<property name="Color" vt="Ident">clBtnFace</property>
+										<property name="CtrlStyle" vt="Int32">1342373888</property>
+										<property name="CtrlExStyle" vt="Int8">0</property>
+										<property name="Resizing" vt="Set">DockLeft, DockTop, DockHeight</property>
+									</properties>
+									<components/>
+								</object>
+								<object type="TAButton" name="ColorMap_Button2">
+									<properties>
+										<property name="Left" vt="Int16">138</property>
+										<property name="Top" vt="Int8">5</property>
+										<property name="Width" vt="Int16">139</property>
+										<property name="Height" vt="Int8">25</property>
+										<property name="Caption" vt="String">Macromap</property>
+										<property name="TabOrder" vt="Int8">1</property>
+										<property name="Color" vt="Ident">clBtnFace</property>
+										<property name="CtrlStyle" vt="Int32">1342373888</property>
+										<property name="CtrlExStyle" vt="Int8">0</property>
+										<property name="Resizing" vt="Set">DockLeft, DockTop, DockHeight</property>
+									</properties>
+									<components/>
+								</object>
+								<object type="TAButton" name="ColorMap_Button3">
+									<properties>
+										<property name="Left" vt="Int16">281</property>
+										<property name="Top" vt="Int8">5</property>
+										<property name="Width" vt="Int16">131</property>
+										<property name="Height" vt="Int8">25</property>
+										<property name="Caption" vt="String">Mixed-Macromap</property>
+										<property name="TabOrder" vt="Int8">2</property>
+										<property name="Color" vt="Ident">clBtnFace</property>
+										<property name="CtrlStyle" vt="Int32">1342373888</property>
+										<property name="CtrlExStyle" vt="Int8">0</property>
+										<property name="Resizing" vt="Set">DockLeft, DockRight, DockTop, DockHeight</property>
+									</properties>
+									<components/>
+								</object>
+								<object type="TAGroup" name="ColorMap_Group2">
+									<properties>
+										<property name="Left" vt="Int8">52</property>
+										<property name="Top" vt="Int16">311</property>
+										<property name="Width" vt="Int16">409</property>
+										<property name="Height" vt="Int16">313</property>
+										<property name="CtrlStyle" vt="Int32">1342308359</property>
+										<property name="CtrlExStyle" vt="Int8">0</property>
+										<property name="Caption" vt="String">ColorMap: Macromap</property>
+										<property name="TabOrder" vt="Int8">4</property>
+										<property name="Resizing" vt="Set">DockLeft, DockRight, DockTop, DockHeight</property>
+									</properties>
+									<components>
+										<object type="TACheckbox" name="ColorMap_Checkbox2">
+											<properties>
+												<property name="Left" vt="Int8">16</property>
+												<property name="Top" vt="Int8">32</property>
+												<property name="Width" vt="Int8">113</property>
+												<property name="Height" vt="Int8">17</property>
+												<property name="Caption" vt="String">MacroMap-FX Aktiv</property>
+												<property name="TabOrder" vt="Int8">0</property>
+												<property name="CtrlStyle" vt="Int32">1342242819</property>
+												<property name="CtrlExStyle" vt="Int8">0</property>
+												<property name="Resizing" vt="Set">DockLeft, DockTop, DockWidth, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+										<object type="TASlider" name="ColorMap_Slider20">
+											<properties>
+												<property name="Left" vt="Int8">8</property>
+												<property name="Top" vt="Int8">56</property>
+												<property name="Width" vt="Int8">102</property>
+												<property name="Height" vt="Int8">37</property>
+												<property name="Max" vt="Int8">12</property>
+												<property name="Position" vt="Int8">10</property>
+												<property name="TabOrder" vt="Int8">1</property>
+												<property name="ThumbLength" vt="Int8">22</property>
+												<property name="CtrlStyle" vt="Int32">1342177281</property>
+												<property name="CtrlExStyle" vt="Int8">0</property>
+												<property name="Resizing" vt="Set">DockLeft, DockTop, DockWidth, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+										<object type="TASlider" name="ColorMap_Slider21">
+											<properties>
+												<property name="Left" vt="Int16">208</property>
+												<property name="Top" vt="Int8">56</property>
+												<property name="Width" vt="Int8">102</property>
+												<property name="Height" vt="Int8">37</property>
+												<property name="Max" vt="Int8">12</property>
+												<property name="Position" vt="Int8">10</property>
+												<property name="TabOrder" vt="Int8">2</property>
+												<property name="ThumbLength" vt="Int8">22</property>
+												<property name="CtrlStyle" vt="Int32">1342177281</property>
+												<property name="CtrlExStyle" vt="Int8">0</property>
+												<property name="Resizing" vt="Set">DockLeft, DockTop, DockWidth, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+										<object type="TALabel" name="ColorMap_Label20">
+											<properties>
+												<property name="Left" vt="Int8">112</property>
+												<property name="Top" vt="Int8">54</property>
+												<property name="Width" vt="Int8">89</property>
+												<property name="Height" vt="Int8">17</property>
+												<property name="AutoSize" vt="False">False</property>
+												<property name="Caption" vt="UTF8String">Grцsse-X</property>
+												<property name="TabOrder" vt="Int8">3</property>
+												<property name="HaveVariable" vt="False">False</property>
+												<property name="CtrlStyle" vt="Int32">1342177537</property>
+												<property name="CtrlExStyle" vt="Int8">0</property>
+												<property name="Resizing" vt="Set">DockLeft, DockTop, DockWidth, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+										<object type="TALabel" name="ColorMap_Label21">
+											<properties>
+												<property name="Left" vt="Int16">312</property>
+												<property name="Top" vt="Int8">54</property>
+												<property name="Width" vt="Int8">89</property>
+												<property name="Height" vt="Int8">17</property>
+												<property name="AutoSize" vt="False">False</property>
+												<property name="Caption" vt="UTF8String">Grцsse-Y</property>
+												<property name="TabOrder" vt="Int8">4</property>
+												<property name="HaveVariable" vt="False">False</property>
+												<property name="CtrlStyle" vt="Int32">1342177537</property>
+												<property name="CtrlExStyle" vt="Int8">0</property>
+												<property name="Resizing" vt="Set">DockLeft, DockRight, DockTop, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+										<object type="TAInput" name="ColorMap_Input20">
+											<properties>
+												<property name="Left" vt="Int8">112</property>
+												<property name="Top" vt="Int8">72</property>
+												<property name="Width" vt="Int8">89</property>
+												<property name="Height" vt="Int8">21</property>
+												<property name="TabOrder" vt="Int8">5</property>
+												<property name="CtrlStyle" vt="Int32">1342242944</property>
+												<property name="CtrlExStyle" vt="Int16">512</property>
+												<property name="Resizing" vt="Set">DockLeft, DockTop, DockWidth, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+										<object type="TAInput" name="ColorMap_Input21">
+											<properties>
+												<property name="Left" vt="Int16">312</property>
+												<property name="Top" vt="Int8">72</property>
+												<property name="Width" vt="Int8">89</property>
+												<property name="Height" vt="Int8">21</property>
+												<property name="TabOrder" vt="Int8">6</property>
+												<property name="CtrlStyle" vt="Int32">1342242944</property>
+												<property name="CtrlExStyle" vt="Int16">512</property>
+												<property name="Resizing" vt="Set">DockLeft, DockRight, DockTop, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+										<object type="TALabel" name="ColorMap_Label24">
+											<properties>
+												<property name="Left" vt="Int16">216</property>
+												<property name="Top" vt="Int16">128</property>
+												<property name="Width" vt="Int8">92</property>
+												<property name="Height" vt="Int8">17</property>
+												<property name="AutoSize" vt="False">False</property>
+												<property name="Caption" vt="String"> Mask Texture</property>
+												<property name="TabOrder" vt="Int8">7</property>
+												<property name="HaveVariable" vt="False">False</property>
+												<property name="CtrlStyle" vt="Int32">1350566144</property>
+												<property name="CtrlExStyle" vt="Int8">0</property>
+												<property name="Resizing" vt="Set">DockLeft, DockTop, DockWidth, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+										<object type="TAInput" name="ColorMap_Input24">
+											<properties>
+												<property name="Left" vt="Int16">216</property>
+												<property name="Top" vt="Int16">145</property>
+												<property name="Width" vt="Int16">185</property>
+												<property name="Height" vt="Int8">21</property>
+												<property name="TabOrder" vt="Int8">8</property>
+												<property name="CtrlStyle" vt="Int32">1342242944</property>
+												<property name="CtrlExStyle" vt="Int16">512</property>
+												<property name="Resizing" vt="Set">DockLeft, DockTop, DockWidth, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+										<object type="TAButton" name="ColorMap_Button24">
+											<properties>
+												<property name="Left" vt="Int16">312</property>
+												<property name="Top" vt="Int16">128</property>
+												<property name="Width" vt="Int8">89</property>
+												<property name="Height" vt="Int8">17</property>
+												<property name="Caption" vt="UTF8String">Auswдhlen</property>
+												<property name="TabOrder" vt="Int8">9</property>
+												<property name="Color" vt="Ident">clBtnFace</property>
+												<property name="CtrlStyle" vt="Int32">1342390272</property>
+												<property name="CtrlExStyle" vt="Int8">0</property>
+												<property name="Resizing" vt="Set">DockLeft, DockTop, DockWidth, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+										<object type="TALabel" name="ColorMap_Label23">
+											<properties>
+												<property name="Left" vt="Int8">16</property>
+												<property name="Top" vt="Int16">128</property>
+												<property name="Width" vt="Int8">92</property>
+												<property name="Height" vt="Int8">17</property>
+												<property name="AutoSize" vt="False">False</property>
+												<property name="Caption" vt="String"> Texture</property>
+												<property name="TabOrder" vt="Int8">10</property>
+												<property name="HaveVariable" vt="False">False</property>
+												<property name="CtrlStyle" vt="Int32">1350566144</property>
+												<property name="CtrlExStyle" vt="Int8">0</property>
+												<property name="Resizing" vt="Set">DockLeft, DockTop, DockWidth, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+										<object type="TAButton" name="ColorMap_Button23">
+											<properties>
+												<property name="Left" vt="Int8">112</property>
+												<property name="Top" vt="Int16">128</property>
+												<property name="Width" vt="Int8">89</property>
+												<property name="Height" vt="Int8">17</property>
+												<property name="Caption" vt="UTF8String">Auswдhlen</property>
+												<property name="TabOrder" vt="Int8">11</property>
+												<property name="Color" vt="Ident">clBtnFace</property>
+												<property name="CtrlStyle" vt="Int32">1342390272</property>
+												<property name="CtrlExStyle" vt="Int8">0</property>
+												<property name="Resizing" vt="Set">DockLeft, DockTop, DockWidth, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+										<object type="TAInput" name="ColorMap_Input23">
+											<properties>
+												<property name="Left" vt="Int8">16</property>
+												<property name="Top" vt="Int16">145</property>
+												<property name="Width" vt="Int16">185</property>
+												<property name="Height" vt="Int8">21</property>
+												<property name="TabOrder" vt="Int8">12</property>
+												<property name="CtrlStyle" vt="Int32">1342242944</property>
+												<property name="CtrlExStyle" vt="Int16">512</property>
+												<property name="Resizing" vt="Set">DockLeft, DockTop, DockWidth, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+										<object type="TASlider" name="ColorMap_Slider22">
+											<properties>
+												<property name="Left" vt="Int8">8</property>
+												<property name="Top" vt="Int16">184</property>
+												<property name="Width" vt="Int16">302</property>
+												<property name="Height" vt="Int8">37</property>
+												<property name="Max" vt="Int8">100</property>
+												<property name="TabOrder" vt="Int8">13</property>
+												<property name="ThumbLength" vt="Int8">22</property>
+												<property name="CtrlStyle" vt="Int32">1342308353</property>
+												<property name="CtrlExStyle" vt="Int8">0</property>
+												<property name="Resizing" vt="Set">DockLeft, DockTop, DockWidth, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+										<object type="TAInput" name="ColorMap_Input22">
+											<properties>
+												<property name="Left" vt="Int16">312</property>
+												<property name="Top" vt="Int16">200</property>
+												<property name="Width" vt="Int8">89</property>
+												<property name="Height" vt="Int8">21</property>
+												<property name="TabOrder" vt="Int8">14</property>
+												<property name="CtrlStyle" vt="Int32">1342374016</property>
+												<property name="CtrlExStyle" vt="Int16">512</property>
+												<property name="Resizing" vt="Set">DockLeft, DockRight, DockTop, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+										<object type="TALabel" name="ColorMap_Label22">
+											<properties>
+												<property name="Left" vt="Int16">312</property>
+												<property name="Top" vt="Int16">182</property>
+												<property name="Width" vt="Int8">89</property>
+												<property name="Height" vt="Int8">17</property>
+												<property name="AutoSize" vt="False">False</property>
+												<property name="Caption" vt="String">Deckungsgrad</property>
+												<property name="TabOrder" vt="Int8">15</property>
+												<property name="HaveVariable" vt="False">False</property>
+												<property name="CtrlStyle" vt="Int32">1342308609</property>
+												<property name="CtrlExStyle" vt="Int8">0</property>
+												<property name="Resizing" vt="Set">DockLeft, DockRight, DockTop, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+										<object type="TACheckbox" name="ColorMap_Checkbox20">
+											<properties>
+												<property name="Left" vt="Int8">16</property>
+												<property name="Top" vt="Int8">104</property>
+												<property name="Width" vt="Int8">113</property>
+												<property name="Height" vt="Int8">17</property>
+												<property name="Caption" vt="String">Fill: AutoFlipRotate</property>
+												<property name="TabOrder" vt="Int8">16</property>
+												<property name="CtrlStyle" vt="Int32">1342242819</property>
+												<property name="CtrlExStyle" vt="Int8">0</property>
+												<property name="Resizing" vt="Set">DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+									</components>
+								</object>
+								<object type="TAGroup" name="ColorMap_Group3">
+									<properties>
+										<property name="Left" vt="Int8">4</property>
+										<property name="Top" vt="Int8">31</property>
+										<property name="Width" vt="Int16">409</property>
+										<property name="Height" vt="Int16">313</property>
+										<property name="CtrlStyle" vt="Int32">1342308359</property>
+										<property name="CtrlExStyle" vt="Int8">0</property>
+										<property name="Caption" vt="String">ColorMap: Mixed-Macromap</property>
+										<property name="TabOrder" vt="Int8">5</property>
+										<property name="Resizing" vt="Set">DockLeft, DockRight, DockTop, DockHeight</property>
+									</properties>
+									<components>
+										<object type="TACheckbox" name="ColorMap_Checkbox3">
+											<properties>
+												<property name="Left" vt="Int8">16</property>
+												<property name="Top" vt="Int8">32</property>
+												<property name="Width" vt="Int16">145</property>
+												<property name="Height" vt="Int8">17</property>
+												<property name="Caption" vt="String">Mixed-MacroMap-FX Aktiv</property>
+												<property name="TabOrder" vt="Int8">0</property>
+												<property name="CtrlStyle" vt="Int32">1342242819</property>
+												<property name="CtrlExStyle" vt="Int8">0</property>
+												<property name="Resizing" vt="Set">DockLeft, DockTop, DockWidth, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+										<object type="TASlider" name="ColorMap_Slider30">
+											<properties>
+												<property name="Left" vt="Int8">8</property>
+												<property name="Top" vt="Int8">56</property>
+												<property name="Width" vt="Int8">102</property>
+												<property name="Height" vt="Int8">37</property>
+												<property name="Max" vt="Int8">12</property>
+												<property name="Position" vt="Int8">10</property>
+												<property name="TabOrder" vt="Int8">1</property>
+												<property name="ThumbLength" vt="Int8">22</property>
+												<property name="CtrlStyle" vt="Int32">1342177281</property>
+												<property name="CtrlExStyle" vt="Int8">0</property>
+												<property name="Resizing" vt="Set">DockLeft, DockTop, DockWidth, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+										<object type="TASlider" name="ColorMap_Slider31">
+											<properties>
+												<property name="Left" vt="Int16">208</property>
+												<property name="Top" vt="Int8">56</property>
+												<property name="Width" vt="Int8">102</property>
+												<property name="Height" vt="Int8">37</property>
+												<property name="Max" vt="Int8">12</property>
+												<property name="Position" vt="Int8">10</property>
+												<property name="TabOrder" vt="Int8">2</property>
+												<property name="ThumbLength" vt="Int8">22</property>
+												<property name="CtrlStyle" vt="Int32">1342177281</property>
+												<property name="CtrlExStyle" vt="Int8">0</property>
+												<property name="Resizing" vt="Set">DockLeft, DockTop, DockWidth, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+										<object type="TALabel" name="ColorMap_Label30">
+											<properties>
+												<property name="Left" vt="Int8">112</property>
+												<property name="Top" vt="Int8">54</property>
+												<property name="Width" vt="Int8">89</property>
+												<property name="Height" vt="Int8">17</property>
+												<property name="AutoSize" vt="False">False</property>
+												<property name="Caption" vt="UTF8String">Grцsse-X</property>
+												<property name="TabOrder" vt="Int8">3</property>
+												<property name="HaveVariable" vt="False">False</property>
+												<property name="CtrlStyle" vt="Int32">1342177537</property>
+												<property name="CtrlExStyle" vt="Int8">0</property>
+												<property name="Resizing" vt="Set">DockLeft, DockTop, DockWidth, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+										<object type="TALabel" name="ColorMap_Label31">
+											<properties>
+												<property name="Left" vt="Int16">312</property>
+												<property name="Top" vt="Int8">54</property>
+												<property name="Width" vt="Int8">89</property>
+												<property name="Height" vt="Int8">17</property>
+												<property name="AutoSize" vt="False">False</property>
+												<property name="Caption" vt="UTF8String">Grцsse-Y</property>
+												<property name="TabOrder" vt="Int8">4</property>
+												<property name="HaveVariable" vt="False">False</property>
+												<property name="CtrlStyle" vt="Int32">1342177537</property>
+												<property name="CtrlExStyle" vt="Int8">0</property>
+												<property name="Resizing" vt="Set">DockLeft, DockRight, DockTop, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+										<object type="TAInput" name="ColorMap_Input30">
+											<properties>
+												<property name="Left" vt="Int8">112</property>
+												<property name="Top" vt="Int8">72</property>
+												<property name="Width" vt="Int8">89</property>
+												<property name="Height" vt="Int8">21</property>
+												<property name="TabOrder" vt="Int8">5</property>
+												<property name="CtrlStyle" vt="Int32">1342242944</property>
+												<property name="CtrlExStyle" vt="Int16">512</property>
+												<property name="Resizing" vt="Set">DockLeft, DockTop, DockWidth, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+										<object type="TAInput" name="ColorMap_Input31">
+											<properties>
+												<property name="Left" vt="Int16">312</property>
+												<property name="Top" vt="Int8">72</property>
+												<property name="Width" vt="Int8">89</property>
+												<property name="Height" vt="Int8">21</property>
+												<property name="TabOrder" vt="Int8">6</property>
+												<property name="CtrlStyle" vt="Int32">1342242944</property>
+												<property name="CtrlExStyle" vt="Int16">512</property>
+												<property name="Resizing" vt="Set">DockLeft, DockRight, DockTop, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+										<object type="TALabel" name="ColorMap_Label34">
+											<properties>
+												<property name="Left" vt="Int8">16</property>
+												<property name="Top" vt="Int16">128</property>
+												<property name="Width" vt="Int8">92</property>
+												<property name="Height" vt="Int8">17</property>
+												<property name="AutoSize" vt="False">False</property>
+												<property name="Caption" vt="String"> Macro Texture 1</property>
+												<property name="TabOrder" vt="Int8">7</property>
+												<property name="HaveVariable" vt="False">False</property>
+												<property name="CtrlStyle" vt="Int32">1350566144</property>
+												<property name="CtrlExStyle" vt="Int8">0</property>
+												<property name="Resizing" vt="Set">DockLeft, DockTop, DockWidth, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+										<object type="TAInput" name="ColorMap_Input34">
+											<properties>
+												<property name="Left" vt="Int8">16</property>
+												<property name="Top" vt="Int16">145</property>
+												<property name="Width" vt="Int16">185</property>
+												<property name="Height" vt="Int8">21</property>
+												<property name="TabOrder" vt="Int8">8</property>
+												<property name="CtrlStyle" vt="Int32">1342242944</property>
+												<property name="CtrlExStyle" vt="Int16">512</property>
+												<property name="Resizing" vt="Set">DockLeft, DockTop, DockWidth, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+										<object type="TAButton" name="ColorMap_Button34">
+											<properties>
+												<property name="Left" vt="Int8">112</property>
+												<property name="Top" vt="Int16">128</property>
+												<property name="Width" vt="Int8">89</property>
+												<property name="Height" vt="Int8">17</property>
+												<property name="Caption" vt="UTF8String">Auswдhlen</property>
+												<property name="TabOrder" vt="Int8">9</property>
+												<property name="Color" vt="Ident">clBtnFace</property>
+												<property name="CtrlStyle" vt="Int32">1342390272</property>
+												<property name="CtrlExStyle" vt="Int8">0</property>
+												<property name="Resizing" vt="Set">DockLeft, DockTop, DockWidth, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+										<object type="TALabel" name="ColorMap_Label35">
+											<properties>
+												<property name="Left" vt="Int16">208</property>
+												<property name="Top" vt="Int16">128</property>
+												<property name="Width" vt="Int8">100</property>
+												<property name="Height" vt="Int8">17</property>
+												<property name="AutoSize" vt="False">False</property>
+												<property name="Caption" vt="String"> Macro Texture 2</property>
+												<property name="TabOrder" vt="Int8">10</property>
+												<property name="HaveVariable" vt="False">False</property>
+												<property name="CtrlStyle" vt="Int32">1350566144</property>
+												<property name="CtrlExStyle" vt="Int8">0</property>
+												<property name="Resizing" vt="Set">DockLeft, DockTop, DockWidth, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+										<object type="TAButton" name="ColorMap_Button35">
+											<properties>
+												<property name="Left" vt="Int16">310</property>
+												<property name="Top" vt="Int16">128</property>
+												<property name="Width" vt="Int8">91</property>
+												<property name="Height" vt="Int8">17</property>
+												<property name="Caption" vt="UTF8String">Auswдhlen</property>
+												<property name="TabOrder" vt="Int8">11</property>
+												<property name="Color" vt="Ident">clBtnFace</property>
+												<property name="CtrlStyle" vt="Int32">1342390272</property>
+												<property name="CtrlExStyle" vt="Int8">0</property>
+												<property name="Resizing" vt="Set">DockLeft, DockRight, DockTop, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+										<object type="TAInput" name="ColorMap_Input35">
+											<properties>
+												<property name="Left" vt="Int16">208</property>
+												<property name="Top" vt="Int16">145</property>
+												<property name="Width" vt="Int16">193</property>
+												<property name="Height" vt="Int8">21</property>
+												<property name="TabOrder" vt="Int8">12</property>
+												<property name="CtrlStyle" vt="Int32">1342242944</property>
+												<property name="CtrlExStyle" vt="Int16">512</property>
+												<property name="Resizing" vt="Set">DockLeft, DockRight, DockTop, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+										<object type="TALabel" name="ColorMap_Label33">
+											<properties>
+												<property name="Left" vt="Int8">16</property>
+												<property name="Top" vt="Int16">240</property>
+												<property name="Width" vt="Int8">92</property>
+												<property name="Height" vt="Int8">17</property>
+												<property name="AutoSize" vt="False">False</property>
+												<property name="Caption" vt="String"> Mask Texture</property>
+												<property name="TabOrder" vt="Int8">13</property>
+												<property name="HaveVariable" vt="False">False</property>
+												<property name="CtrlStyle" vt="Int32">1350566144</property>
+												<property name="CtrlExStyle" vt="Int8">0</property>
+												<property name="Resizing" vt="Set">DockLeft, DockTop, DockWidth, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+										<object type="TAButton" name="ColorMap_Button33">
+											<properties>
+												<property name="Left" vt="Int8">112</property>
+												<property name="Top" vt="Int16">240</property>
+												<property name="Width" vt="Int8">89</property>
+												<property name="Height" vt="Int8">17</property>
+												<property name="Caption" vt="UTF8String">Auswдhlen</property>
+												<property name="TabOrder" vt="Int8">14</property>
+												<property name="Color" vt="Ident">clBtnFace</property>
+												<property name="CtrlStyle" vt="Int32">1342390272</property>
+												<property name="CtrlExStyle" vt="Int8">0</property>
+												<property name="Resizing" vt="Set">DockLeft, DockTop, DockWidth, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+										<object type="TAInput" name="ColorMap_Input33">
+											<properties>
+												<property name="Left" vt="Int8">16</property>
+												<property name="Top" vt="Int16">257</property>
+												<property name="Width" vt="Int16">185</property>
+												<property name="Height" vt="Int8">21</property>
+												<property name="TabOrder" vt="Int8">15</property>
+												<property name="CtrlStyle" vt="Int32">1342242944</property>
+												<property name="CtrlExStyle" vt="Int16">512</property>
+												<property name="Resizing" vt="Set">DockLeft, DockTop, DockWidth, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+										<object type="TASlider" name="ColorMap_Slider32">
+											<properties>
+												<property name="Left" vt="Int16">208</property>
+												<property name="Top" vt="Int16">240</property>
+												<property name="Width" vt="Int8">102</property>
+												<property name="Height" vt="Int8">37</property>
+												<property name="Max" vt="Int8">100</property>
+												<property name="TabOrder" vt="Int8">16</property>
+												<property name="ThumbLength" vt="Int8">22</property>
+												<property name="CtrlStyle" vt="Int32">1342308353</property>
+												<property name="CtrlExStyle" vt="Int8">0</property>
+												<property name="Resizing" vt="Set">DockLeft, DockTop, DockWidth, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+										<object type="TAInput" name="ColorMap_Input32">
+											<properties>
+												<property name="Left" vt="Int16">312</property>
+												<property name="Top" vt="Int16">256</property>
+												<property name="Width" vt="Int8">89</property>
+												<property name="Height" vt="Int8">21</property>
+												<property name="TabOrder" vt="Int8">17</property>
+												<property name="CtrlStyle" vt="Int32">1342374016</property>
+												<property name="CtrlExStyle" vt="Int16">512</property>
+												<property name="Resizing" vt="Set">DockLeft, DockRight, DockTop, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+										<object type="TALabel" name="ColorMap_Label32">
+											<properties>
+												<property name="Left" vt="Int16">312</property>
+												<property name="Top" vt="Int16">238</property>
+												<property name="Width" vt="Int8">89</property>
+												<property name="Height" vt="Int8">17</property>
+												<property name="AutoSize" vt="False">False</property>
+												<property name="Caption" vt="String">Deckungsgrad</property>
+												<property name="TabOrder" vt="Int8">18</property>
+												<property name="HaveVariable" vt="False">False</property>
+												<property name="CtrlStyle" vt="Int32">1342308609</property>
+												<property name="CtrlExStyle" vt="Int8">0</property>
+												<property name="Resizing" vt="Set">DockLeft, DockRight, DockTop, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+										<object type="TALabel" name="ColorMap_Label36">
+											<properties>
+												<property name="Left" vt="Int8">16</property>
+												<property name="Top" vt="Int16">184</property>
+												<property name="Width" vt="Int8">92</property>
+												<property name="Height" vt="Int8">17</property>
+												<property name="AutoSize" vt="False">False</property>
+												<property name="Caption" vt="String"> Macro Texture 3</property>
+												<property name="TabOrder" vt="Int8">19</property>
+												<property name="HaveVariable" vt="False">False</property>
+												<property name="CtrlStyle" vt="Int32">1350566144</property>
+												<property name="CtrlExStyle" vt="Int8">0</property>
+												<property name="Resizing" vt="Set">DockLeft, DockTop, DockWidth, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+										<object type="TAInput" name="ColorMap_Input36">
+											<properties>
+												<property name="Left" vt="Int8">16</property>
+												<property name="Top" vt="Int16">201</property>
+												<property name="Width" vt="Int16">185</property>
+												<property name="Height" vt="Int8">21</property>
+												<property name="TabOrder" vt="Int8">20</property>
+												<property name="CtrlStyle" vt="Int32">1342242944</property>
+												<property name="CtrlExStyle" vt="Int16">512</property>
+												<property name="Resizing" vt="Set">DockLeft, DockTop, DockWidth, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+										<object type="TAButton" name="ColorMap_Button36">
+											<properties>
+												<property name="Left" vt="Int8">112</property>
+												<property name="Top" vt="Int16">184</property>
+												<property name="Width" vt="Int8">89</property>
+												<property name="Height" vt="Int8">17</property>
+												<property name="Caption" vt="UTF8String">Auswдhlen</property>
+												<property name="TabOrder" vt="Int8">21</property>
+												<property name="Color" vt="Ident">clBtnFace</property>
+												<property name="CtrlStyle" vt="Int32">1342390272</property>
+												<property name="CtrlExStyle" vt="Int8">0</property>
+												<property name="Resizing" vt="Set">DockLeft, DockTop, DockWidth, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+										<object type="TALabel" name="ColorMap_Label37">
+											<properties>
+												<property name="Left" vt="Int16">208</property>
+												<property name="Top" vt="Int16">184</property>
+												<property name="Width" vt="Int8">100</property>
+												<property name="Height" vt="Int8">17</property>
+												<property name="AutoSize" vt="False">False</property>
+												<property name="Caption" vt="String"> Macro Texture 4</property>
+												<property name="TabOrder" vt="Int8">22</property>
+												<property name="HaveVariable" vt="False">False</property>
+												<property name="CtrlStyle" vt="Int32">1350566144</property>
+												<property name="CtrlExStyle" vt="Int8">0</property>
+												<property name="Resizing" vt="Set">DockLeft, DockTop, DockWidth, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+										<object type="TAButton" name="ColorMap_Button37">
+											<properties>
+												<property name="Left" vt="Int16">310</property>
+												<property name="Top" vt="Int16">184</property>
+												<property name="Width" vt="Int8">91</property>
+												<property name="Height" vt="Int8">17</property>
+												<property name="Caption" vt="UTF8String">Auswдhlen</property>
+												<property name="TabOrder" vt="Int8">23</property>
+												<property name="Color" vt="Ident">clBtnFace</property>
+												<property name="CtrlStyle" vt="Int32">1342390272</property>
+												<property name="CtrlExStyle" vt="Int8">0</property>
+												<property name="Resizing" vt="Set">DockLeft, DockRight, DockTop, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+										<object type="TAInput" name="ColorMap_Input37">
+											<properties>
+												<property name="Left" vt="Int16">208</property>
+												<property name="Top" vt="Int16">201</property>
+												<property name="Width" vt="Int16">193</property>
+												<property name="Height" vt="Int8">21</property>
+												<property name="TabOrder" vt="Int8">24</property>
+												<property name="CtrlStyle" vt="Int32">1342242944</property>
+												<property name="CtrlExStyle" vt="Int16">512</property>
+												<property name="Resizing" vt="Set">DockLeft, DockRight, DockTop, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+										<object type="TACheckbox" name="ColorMap_Checkbox30">
+											<properties>
+												<property name="Left" vt="Int8">16</property>
+												<property name="Top" vt="Int8">104</property>
+												<property name="Width" vt="Int16">129</property>
+												<property name="Height" vt="Int8">17</property>
+												<property name="Caption" vt="String">Fill: AutoFlipRotate</property>
+												<property name="Checked" vt="True">True</property>
+												<property name="State" vt="Ident">cbChecked</property>
+												<property name="TabOrder" vt="Int8">25</property>
+												<property name="CtrlStyle" vt="Int32">1342242819</property>
+												<property name="CtrlExStyle" vt="Int8">0</property>
+												<property name="Resizing" vt="Set">DockLeft, DockTop, DockWidth, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+									</components>
+								</object>
+								<object type="TAButton" name="ColorMap_Button0">
+									<properties>
+										<property name="Left" vt="Int16">322</property>
+										<property name="Top" vt="Int16">317</property>
+										<property name="Width" vt="Int8">89</property>
+										<property name="Height" vt="Int8">25</property>
+										<property name="Caption" vt="UTF8String">Ьbernehmen</property>
+										<property name="TabOrder" vt="Int8">6</property>
+										<property name="Color" vt="Ident">clBtnFace</property>
+										<property name="CtrlStyle" vt="Int32">1342373888</property>
+										<property name="CtrlExStyle" vt="Int8">0</property>
+										<property name="Resizing" vt="Set">DockLeft, DockRight, DockTop, DockWidth, DockHeight</property>
+									</properties>
+									<components/>
+								</object>
+							</components>
+						</object>
+						<object type="TTabSheet" name="Tab1_3">
+							<properties>
+								<property name="Caption" vt="String">DetailMap</property>
+								<property name="Font.Charset" vt="Ident">DEFAULT_CHARSET</property>
+								<property name="Font.Color" vt="Ident">clWindowText</property>
+								<property name="Font.Height" vt="Int8">-11</property>
+								<property name="Font.Name" vt="String">MS Sans Serif</property>
+								<property name="Font.Style" vt="Set"/>
+								<property name="ImageIndex" vt="Int8">-1</property>
+								<property name="ParentFont" vt="False">False</property>
+							</properties>
+							<components>
+								<object type="TAButton" name="DetailMap_Button1">
+									<properties>
+										<property name="Left" vt="Int8">4</property>
+										<property name="Top" vt="Int8">5</property>
+										<property name="Width" vt="Int16">195</property>
+										<property name="Height" vt="Int8">25</property>
+										<property name="Caption" vt="String">Detailmap</property>
+										<property name="TabOrder" vt="Int8">0</property>
+										<property name="Color" vt="Ident">clBtnFace</property>
+										<property name="CtrlStyle" vt="Int32">1342373888</property>
+										<property name="CtrlExStyle" vt="Int8">0</property>
+										<property name="Resizing" vt="Set">DockLeft, DockTop, DockHeight</property>
+									</properties>
+									<components/>
+								</object>
+								<object type="TAButton" name="DetailMap_Button2">
+									<properties>
+										<property name="Left" vt="Int16">217</property>
+										<property name="Top" vt="Int8">5</property>
+										<property name="Width" vt="Int16">195</property>
+										<property name="Height" vt="Int8">25</property>
+										<property name="Caption" vt="String">Bitplanemap</property>
+										<property name="TabOrder" vt="Int8">1</property>
+										<property name="Color" vt="Ident">clBtnFace</property>
+										<property name="CtrlStyle" vt="Int32">1342373888</property>
+										<property name="CtrlExStyle" vt="Int8">0</property>
+										<property name="Resizing" vt="Set">DockLeft, DockRight, DockTop, DockHeight</property>
+									</properties>
+									<components/>
+								</object>
+								<object type="TAGroup" name="DetailMap_Group1">
+									<properties>
+										<property name="Left" vt="Int8">4</property>
+										<property name="Top" vt="Int16">327</property>
+										<property name="Width" vt="Int16">409</property>
+										<property name="Height" vt="Int16">313</property>
+										<property name="CtrlStyle" vt="Int32">1342308359</property>
+										<property name="CtrlExStyle" vt="Int8">0</property>
+										<property name="Caption" vt="String">DetailMap: Basics</property>
+										<property name="TabOrder" vt="Int8">2</property>
+										<property name="Resizing" vt="Set">DockLeft, DockRight, DockTop, DockHeight</property>
+									</properties>
+									<components>
+										<object type="TASlider" name="DetailMap_Slider14">
+											<properties>
+												<property name="Left" vt="Int8">8</property>
+												<property name="Top" vt="Int16">200</property>
+												<property name="Width" vt="Int16">302</property>
+												<property name="Height" vt="Int8">37</property>
+												<property name="Hint" vt="String">Diffuse UV Mixing</property>
+												<property name="Max" vt="Int8">100</property>
+												<property name="Position" vt="Int8">50</property>
+												<property name="TabOrder" vt="Int8">0</property>
+												<property name="ThumbLength" vt="Int8">22</property>
+												<property name="CtrlStyle" vt="Int32">1342177281</property>
+												<property name="CtrlExStyle" vt="Int8">0</property>
+												<property name="Resizing" vt="Set">DockLeft, DockTop, DockWidth, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+										<object type="TAInput" name="DetailMap_Input14">
+											<properties>
+												<property name="Left" vt="Int16">312</property>
+												<property name="Top" vt="Int16">216</property>
+												<property name="Width" vt="Int8">89</property>
+												<property name="Height" vt="Int8">21</property>
+												<property name="TabOrder" vt="Int8">1</property>
+												<property name="CtrlStyle" vt="Int32">1342242944</property>
+												<property name="CtrlExStyle" vt="Int16">512</property>
+												<property name="Resizing" vt="Set">DockLeft, DockRight, DockTop, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+										<object type="TASlider" name="DetailMap_Slider10">
+											<properties>
+												<property name="Left" vt="Int8">8</property>
+												<property name="Top" vt="Int8">32</property>
+												<property name="Width" vt="Int8">102</property>
+												<property name="Height" vt="Int8">37</property>
+												<property name="Max" vt="Int8">12</property>
+												<property name="Position" vt="Int8">6</property>
+												<property name="TabOrder" vt="Int8">2</property>
+												<property name="ThumbLength" vt="Int8">22</property>
+												<property name="CtrlStyle" vt="Int32">1342308353</property>
+												<property name="CtrlExStyle" vt="Int8">0</property>
+												<property name="Resizing" vt="Set">DockLeft, DockTop, DockWidth, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+										<object type="TALabel" name="DetailMap_Label10">
+											<properties>
+												<property name="Left" vt="Int8">112</property>
+												<property name="Top" vt="Int8">30</property>
+												<property name="Width" vt="Int8">89</property>
+												<property name="Height" vt="Int8">17</property>
+												<property name="AutoSize" vt="False">False</property>
+												<property name="Caption" vt="UTF8String">Grцsse-X</property>
+												<property name="TabOrder" vt="Int8">3</property>
+												<property name="HaveVariable" vt="False">False</property>
+												<property name="CtrlStyle" vt="Int32">1342308609</property>
+												<property name="CtrlExStyle" vt="Int8">0</property>
+												<property name="Resizing" vt="Set">DockLeft, DockTop, DockWidth, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+										<object type="TAInput" name="DetailMap_Input10">
+											<properties>
+												<property name="Left" vt="Int8">112</property>
+												<property name="Top" vt="Int8">48</property>
+												<property name="Width" vt="Int8">89</property>
+												<property name="Height" vt="Int8">21</property>
+												<property name="TabOrder" vt="Int8">4</property>
+												<property name="CtrlStyle" vt="Int32">1342374016</property>
+												<property name="CtrlExStyle" vt="Int16">512</property>
+												<property name="Resizing" vt="Set">DockLeft, DockTop, DockWidth, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+										<object type="TASlider" name="DetailMap_Slider11">
+											<properties>
+												<property name="Left" vt="Int16">208</property>
+												<property name="Top" vt="Int8">32</property>
+												<property name="Width" vt="Int8">102</property>
+												<property name="Height" vt="Int8">37</property>
+												<property name="Max" vt="Int8">12</property>
+												<property name="Position" vt="Int8">6</property>
+												<property name="TabOrder" vt="Int8">5</property>
+												<property name="ThumbLength" vt="Int8">22</property>
+												<property name="CtrlStyle" vt="Int32">1342308353</property>
+												<property name="CtrlExStyle" vt="Int8">0</property>
+												<property name="Resizing" vt="Set">DockLeft, DockTop, DockWidth, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+										<object type="TALabel" name="DetailMap_Label11">
+											<properties>
+												<property name="Left" vt="Int16">312</property>
+												<property name="Top" vt="Int8">30</property>
+												<property name="Width" vt="Int8">89</property>
+												<property name="Height" vt="Int8">17</property>
+												<property name="AutoSize" vt="False">False</property>
+												<property name="Caption" vt="UTF8String">Grцsse-Y</property>
+												<property name="TabOrder" vt="Int8">6</property>
+												<property name="HaveVariable" vt="False">False</property>
+												<property name="CtrlStyle" vt="Int32">1342308609</property>
+												<property name="CtrlExStyle" vt="Int8">0</property>
+												<property name="Resizing" vt="Set">DockLeft, DockRight, DockTop, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+										<object type="TAInput" name="DetailMap_Input11">
+											<properties>
+												<property name="Left" vt="Int16">312</property>
+												<property name="Top" vt="Int8">48</property>
+												<property name="Width" vt="Int8">89</property>
+												<property name="Height" vt="Int8">21</property>
+												<property name="TabOrder" vt="Int8">7</property>
+												<property name="CtrlStyle" vt="Int32">1342374016</property>
+												<property name="CtrlExStyle" vt="Int16">512</property>
+												<property name="Resizing" vt="Set">DockLeft, DockRight, DockTop, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+										<object type="TALabel" name="DetailMap_Label14">
+											<properties>
+												<property name="Left" vt="Int16">312</property>
+												<property name="Top" vt="Int16">198</property>
+												<property name="Width" vt="Int8">89</property>
+												<property name="Height" vt="Int8">17</property>
+												<property name="AutoSize" vt="False">False</property>
+												<property name="Caption" vt="String">Transparenz</property>
+												<property name="TabOrder" vt="Int8">8</property>
+												<property name="HaveVariable" vt="False">False</property>
+												<property name="CtrlStyle" vt="Int32">1342308609</property>
+												<property name="CtrlExStyle" vt="Int8">0</property>
+												<property name="Resizing" vt="Set">DockLeft, DockRight, DockTop, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+										<object type="TASlider" name="DetailMap_Slider13">
+											<properties>
+												<property name="Left" vt="Int8">8</property>
+												<property name="Top" vt="Int16">144</property>
+												<property name="Width" vt="Int16">302</property>
+												<property name="Height" vt="Int8">37</property>
+												<property name="Hint" vt="String">Diffuse UV Mixing</property>
+												<property name="Max" vt="Int8">4</property>
+												<property name="Position" vt="Int8">1</property>
+												<property name="TabOrder" vt="Int8">9</property>
+												<property name="ThumbLength" vt="Int8">22</property>
+												<property name="CtrlStyle" vt="Int32">1342177281</property>
+												<property name="CtrlExStyle" vt="Int8">0</property>
+												<property name="Resizing" vt="Set">DockLeft, DockTop, DockWidth, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+										<object type="TAInput" name="DetailMap_Input13">
+											<properties>
+												<property name="Left" vt="Int16">312</property>
+												<property name="Top" vt="Int16">160</property>
+												<property name="Width" vt="Int8">89</property>
+												<property name="Height" vt="Int8">21</property>
+												<property name="TabOrder" vt="Int8">10</property>
+												<property name="CtrlStyle" vt="Int32">1342242944</property>
+												<property name="CtrlExStyle" vt="Int16">512</property>
+												<property name="Resizing" vt="Set">DockLeft, DockRight, DockTop, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+										<object type="TALabel" name="DetailMap_Label13">
+											<properties>
+												<property name="Left" vt="Int16">312</property>
+												<property name="Top" vt="Int16">142</property>
+												<property name="Width" vt="Int8">89</property>
+												<property name="Height" vt="Int8">17</property>
+												<property name="AutoSize" vt="False">False</property>
+												<property name="Caption" vt="String">Diffuse-UV</property>
+												<property name="TabOrder" vt="Int8">11</property>
+												<property name="HaveVariable" vt="False">False</property>
+												<property name="CtrlStyle" vt="Int32">1342308609</property>
+												<property name="CtrlExStyle" vt="Int8">0</property>
+												<property name="Resizing" vt="Set">DockLeft, DockRight, DockTop, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+										<object type="TALabel" name="DetailMap_Label12">
+											<properties>
+												<property name="Left" vt="Int16">312</property>
+												<property name="Top" vt="Int8">86</property>
+												<property name="Width" vt="Int8">89</property>
+												<property name="Height" vt="Int8">17</property>
+												<property name="AutoSize" vt="False">False</property>
+												<property name="Caption" vt="String">Detail Scale</property>
+												<property name="TabOrder" vt="Int8">12</property>
+												<property name="HaveVariable" vt="False">False</property>
+												<property name="CtrlStyle" vt="Int32">1342177537</property>
+												<property name="CtrlExStyle" vt="Int8">0</property>
+												<property name="Resizing" vt="Set">DockLeft, DockRight, DockTop, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+										<object type="TASlider" name="DetailMap_Slider12">
+											<properties>
+												<property name="Left" vt="Int16">208</property>
+												<property name="Top" vt="Int8">88</property>
+												<property name="Width" vt="Int8">102</property>
+												<property name="Height" vt="Int8">37</property>
+												<property name="Hint" vt="String">Breiten &amp; Tiefen Scaling. 1 - 128</property>
+												<property name="Max" vt="Int16">128</property>
+												<property name="Min" vt="Int8">1</property>
+												<property name="Position" vt="Int8">5</property>
+												<property name="TabOrder" vt="Int8">13</property>
+												<property name="ThumbLength" vt="Int8">22</property>
+												<property name="CtrlStyle" vt="Int32">1342177281</property>
+												<property name="CtrlExStyle" vt="Int8">0</property>
+												<property name="Resizing" vt="Set">DockLeft, DockTop, DockWidth, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+										<object type="TAInput" name="DetailMap_Input12">
+											<properties>
+												<property name="Left" vt="Int16">312</property>
+												<property name="Top" vt="Int8">104</property>
+												<property name="Width" vt="Int8">89</property>
+												<property name="Height" vt="Int8">21</property>
+												<property name="TabOrder" vt="Int8">14</property>
+												<property name="CtrlStyle" vt="Int32">1342242944</property>
+												<property name="CtrlExStyle" vt="Int16">512</property>
+												<property name="Resizing" vt="Set">DockLeft, DockRight, DockTop, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+										<object type="TACheckbox" name="DetailMap_Checkbox10">
+											<properties>
+												<property name="Left" vt="Int8">16</property>
+												<property name="Top" vt="Int16">248</property>
+												<property name="Width" vt="Int16">129</property>
+												<property name="Height" vt="Int8">17</property>
+												<property name="Caption" vt="String">Fill: AutoFlipRotate</property>
+												<property name="Checked" vt="True">True</property>
+												<property name="State" vt="Ident">cbChecked</property>
+												<property name="TabOrder" vt="Int8">15</property>
+												<property name="CtrlStyle" vt="Int32">1342242819</property>
+												<property name="CtrlExStyle" vt="Int8">0</property>
+												<property name="Resizing" vt="Set">DockLeft, DockTop, DockWidth, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+										<object type="TALabel" name="DetailMap_Label15">
+											<properties>
+												<property name="Left" vt="Int8">16</property>
+												<property name="Top" vt="Int8">86</property>
+												<property name="Width" vt="Int8">92</property>
+												<property name="Height" vt="Int8">17</property>
+												<property name="AutoSize" vt="False">False</property>
+												<property name="Caption" vt="String"> Detail Texture</property>
+												<property name="TabOrder" vt="Int8">16</property>
+												<property name="HaveVariable" vt="False">False</property>
+												<property name="CtrlStyle" vt="Int32">1350566144</property>
+												<property name="CtrlExStyle" vt="Int8">0</property>
+												<property name="Resizing" vt="Set">DockLeft, DockTop, DockWidth, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+										<object type="TAInput" name="DetailMap_Input15">
+											<properties>
+												<property name="Left" vt="Int8">16</property>
+												<property name="Top" vt="Int8">103</property>
+												<property name="Width" vt="Int16">185</property>
+												<property name="Height" vt="Int8">21</property>
+												<property name="TabOrder" vt="Int8">17</property>
+												<property name="CtrlStyle" vt="Int32">1342242944</property>
+												<property name="CtrlExStyle" vt="Int16">512</property>
+												<property name="Resizing" vt="Set">DockLeft, DockTop, DockWidth, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+										<object type="TAButton" name="DetailMap_Button15">
+											<properties>
+												<property name="Left" vt="Int8">112</property>
+												<property name="Top" vt="Int8">86</property>
+												<property name="Width" vt="Int8">89</property>
+												<property name="Height" vt="Int8">17</property>
+												<property name="Caption" vt="UTF8String">Auswдhlen</property>
+												<property name="TabOrder" vt="Int8">18</property>
+												<property name="Color" vt="Ident">clBtnFace</property>
+												<property name="CtrlStyle" vt="Int32">1342390272</property>
+												<property name="CtrlExStyle" vt="Int8">0</property>
+												<property name="Resizing" vt="Set">DockLeft, DockTop, DockWidth, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+									</components>
+								</object>
+								<object type="TAGroup" name="DetailMap_Group2">
+									<properties>
+										<property name="Left" vt="Int8">4</property>
+										<property name="Top" vt="Int8">31</property>
+										<property name="Width" vt="Int16">409</property>
+										<property name="Height" vt="Int16">313</property>
+										<property name="CtrlStyle" vt="Int32">1342308359</property>
+										<property name="CtrlExStyle" vt="Int8">0</property>
+										<property name="Caption" vt="String">DetailMap: Bitplanemap</property>
+										<property name="TabOrder" vt="Int8">3</property>
+										<property name="Resizing" vt="Set">DockLeft, DockRight, DockTop, DockHeight</property>
+									</properties>
+									<components>
+										<object type="TACheckbox" name="DetailMap_Checkbox2">
+											<properties>
+												<property name="Left" vt="Int8">16</property>
+												<property name="Top" vt="Int8">32</property>
+												<property name="Width" vt="Int16">145</property>
+												<property name="Height" vt="Int8">17</property>
+												<property name="Caption" vt="String">BitplaneMap-FX Aktiv</property>
+												<property name="TabOrder" vt="Int8">0</property>
+												<property name="CtrlStyle" vt="Int32">1342242819</property>
+												<property name="CtrlExStyle" vt="Int8">0</property>
+												<property name="Resizing" vt="Set">DockLeft, DockTop, DockWidth, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+										<object type="TASlider" name="DetailMap_Slider20">
+											<properties>
+												<property name="Left" vt="Int8">8</property>
+												<property name="Top" vt="Int8">56</property>
+												<property name="Width" vt="Int8">102</property>
+												<property name="Height" vt="Int8">37</property>
+												<property name="Max" vt="Int8">12</property>
+												<property name="Position" vt="Int8">10</property>
+												<property name="TabOrder" vt="Int8">1</property>
+												<property name="ThumbLength" vt="Int8">22</property>
+												<property name="CtrlStyle" vt="Int32">1342177281</property>
+												<property name="CtrlExStyle" vt="Int8">0</property>
+												<property name="Resizing" vt="Set">DockLeft, DockTop, DockWidth, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+										<object type="TASlider" name="DetailMap_Slider21">
+											<properties>
+												<property name="Left" vt="Int16">208</property>
+												<property name="Top" vt="Int8">56</property>
+												<property name="Width" vt="Int8">102</property>
+												<property name="Height" vt="Int8">37</property>
+												<property name="Max" vt="Int8">12</property>
+												<property name="Position" vt="Int8">10</property>
+												<property name="TabOrder" vt="Int8">2</property>
+												<property name="ThumbLength" vt="Int8">22</property>
+												<property name="CtrlStyle" vt="Int32">1342177281</property>
+												<property name="CtrlExStyle" vt="Int8">0</property>
+												<property name="Resizing" vt="Set">DockLeft, DockTop, DockWidth, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+										<object type="TALabel" name="DetailMap_Label20">
+											<properties>
+												<property name="Left" vt="Int8">112</property>
+												<property name="Top" vt="Int8">54</property>
+												<property name="Width" vt="Int8">89</property>
+												<property name="Height" vt="Int8">17</property>
+												<property name="AutoSize" vt="False">False</property>
+												<property name="Caption" vt="UTF8String">Grцsse-X</property>
+												<property name="TabOrder" vt="Int8">3</property>
+												<property name="HaveVariable" vt="False">False</property>
+												<property name="CtrlStyle" vt="Int32">1342177537</property>
+												<property name="CtrlExStyle" vt="Int8">0</property>
+												<property name="Resizing" vt="Set">DockLeft, DockTop, DockWidth, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+										<object type="TALabel" name="DetailMap_Label21">
+											<properties>
+												<property name="Left" vt="Int16">312</property>
+												<property name="Top" vt="Int8">54</property>
+												<property name="Width" vt="Int8">89</property>
+												<property name="Height" vt="Int8">17</property>
+												<property name="AutoSize" vt="False">False</property>
+												<property name="Caption" vt="UTF8String">Grцsse-Y</property>
+												<property name="TabOrder" vt="Int8">4</property>
+												<property name="HaveVariable" vt="False">False</property>
+												<property name="CtrlStyle" vt="Int32">1342177537</property>
+												<property name="CtrlExStyle" vt="Int8">0</property>
+												<property name="Resizing" vt="Set">DockLeft, DockRight, DockTop, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+										<object type="TAInput" name="DetailMap_Input20">
+											<properties>
+												<property name="Left" vt="Int8">112</property>
+												<property name="Top" vt="Int8">72</property>
+												<property name="Width" vt="Int8">89</property>
+												<property name="Height" vt="Int8">21</property>
+												<property name="TabOrder" vt="Int8">5</property>
+												<property name="CtrlStyle" vt="Int32">1342242944</property>
+												<property name="CtrlExStyle" vt="Int16">512</property>
+												<property name="Resizing" vt="Set">DockLeft, DockTop, DockWidth, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+										<object type="TAInput" name="DetailMap_Input21">
+											<properties>
+												<property name="Left" vt="Int16">312</property>
+												<property name="Top" vt="Int8">72</property>
+												<property name="Width" vt="Int8">89</property>
+												<property name="Height" vt="Int8">21</property>
+												<property name="TabOrder" vt="Int8">6</property>
+												<property name="CtrlStyle" vt="Int32">1342242944</property>
+												<property name="CtrlExStyle" vt="Int16">512</property>
+												<property name="Resizing" vt="Set">DockLeft, DockRight, DockTop, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+										<object type="TALabel" name="DetailMap_Label24">
+											<properties>
+												<property name="Left" vt="Int8">16</property>
+												<property name="Top" vt="Int8">112</property>
+												<property name="Width" vt="Int8">92</property>
+												<property name="Height" vt="Int8">17</property>
+												<property name="AutoSize" vt="False">False</property>
+												<property name="Caption" vt="String"> Plane Texture 1</property>
+												<property name="TabOrder" vt="Int8">7</property>
+												<property name="HaveVariable" vt="False">False</property>
+												<property name="CtrlStyle" vt="Int32">1350566144</property>
+												<property name="CtrlExStyle" vt="Int8">0</property>
+												<property name="Resizing" vt="Set">DockLeft, DockTop, DockWidth, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+										<object type="TAInput" name="DetailMap_Input24">
+											<properties>
+												<property name="Left" vt="Int8">16</property>
+												<property name="Top" vt="Int16">129</property>
+												<property name="Width" vt="Int16">185</property>
+												<property name="Height" vt="Int8">21</property>
+												<property name="TabOrder" vt="Int8">8</property>
+												<property name="CtrlStyle" vt="Int32">1342242944</property>
+												<property name="CtrlExStyle" vt="Int16">512</property>
+												<property name="Resizing" vt="Set">DockLeft, DockTop, DockWidth, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+										<object type="TAButton" name="DetailMap_Button24">
+											<properties>
+												<property name="Left" vt="Int8">112</property>
+												<property name="Top" vt="Int8">112</property>
+												<property name="Width" vt="Int8">89</property>
+												<property name="Height" vt="Int8">17</property>
+												<property name="Caption" vt="UTF8String">Auswдhlen</property>
+												<property name="TabOrder" vt="Int8">9</property>
+												<property name="Color" vt="Ident">clBtnFace</property>
+												<property name="CtrlStyle" vt="Int32">1342390272</property>
+												<property name="CtrlExStyle" vt="Int8">0</property>
+												<property name="Resizing" vt="Set">DockLeft, DockTop, DockWidth, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+										<object type="TALabel" name="DetailMap_Label25">
+											<properties>
+												<property name="Left" vt="Int16">208</property>
+												<property name="Top" vt="Int8">112</property>
+												<property name="Width" vt="Int8">100</property>
+												<property name="Height" vt="Int8">17</property>
+												<property name="AutoSize" vt="False">False</property>
+												<property name="Caption" vt="String"> Plane Texture 2</property>
+												<property name="TabOrder" vt="Int8">10</property>
+												<property name="HaveVariable" vt="False">False</property>
+												<property name="CtrlStyle" vt="Int32">1350566144</property>
+												<property name="CtrlExStyle" vt="Int8">0</property>
+												<property name="Resizing" vt="Set">DockLeft, DockTop, DockWidth, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+										<object type="TAButton" name="DetailMap_Button25">
+											<properties>
+												<property name="Left" vt="Int16">310</property>
+												<property name="Top" vt="Int8">112</property>
+												<property name="Width" vt="Int8">91</property>
+												<property name="Height" vt="Int8">17</property>
+												<property name="Caption" vt="UTF8String">Auswдhlen</property>
+												<property name="TabOrder" vt="Int8">11</property>
+												<property name="Color" vt="Ident">clBtnFace</property>
+												<property name="CtrlStyle" vt="Int32">1342390272</property>
+												<property name="CtrlExStyle" vt="Int8">0</property>
+												<property name="Resizing" vt="Set">DockLeft, DockRight, DockTop, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+										<object type="TAInput" name="DetailMap_Input25">
+											<properties>
+												<property name="Left" vt="Int16">208</property>
+												<property name="Top" vt="Int16">129</property>
+												<property name="Width" vt="Int16">193</property>
+												<property name="Height" vt="Int8">21</property>
+												<property name="TabOrder" vt="Int8">12</property>
+												<property name="CtrlStyle" vt="Int32">1342242944</property>
+												<property name="CtrlExStyle" vt="Int16">512</property>
+												<property name="Resizing" vt="Set">DockLeft, DockRight, DockTop, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+										<object type="TASlider" name="DetailMap_Slider22">
+											<properties>
+												<property name="Left" vt="Int8">8</property>
+												<property name="Top" vt="Int16">224</property>
+												<property name="Width" vt="Int16">302</property>
+												<property name="Height" vt="Int8">37</property>
+												<property name="Max" vt="Int8">100</property>
+												<property name="Position" vt="Int8">50</property>
+												<property name="TabOrder" vt="Int8">13</property>
+												<property name="ThumbLength" vt="Int8">22</property>
+												<property name="CtrlStyle" vt="Int32">1342308353</property>
+												<property name="CtrlExStyle" vt="Int8">0</property>
+												<property name="Resizing" vt="Set">DockLeft, DockTop, DockWidth, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+										<object type="TAInput" name="DetailMap_Input22">
+											<properties>
+												<property name="Left" vt="Int16">312</property>
+												<property name="Top" vt="Int16">240</property>
+												<property name="Width" vt="Int8">89</property>
+												<property name="Height" vt="Int8">21</property>
+												<property name="TabOrder" vt="Int8">14</property>
+												<property name="CtrlStyle" vt="Int32">1342374016</property>
+												<property name="CtrlExStyle" vt="Int16">512</property>
+												<property name="Resizing" vt="Set">DockLeft, DockRight, DockTop, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+										<object type="TALabel" name="DetailMap_Label22">
+											<properties>
+												<property name="Left" vt="Int16">312</property>
+												<property name="Top" vt="Int16">222</property>
+												<property name="Width" vt="Int8">89</property>
+												<property name="Height" vt="Int8">17</property>
+												<property name="AutoSize" vt="False">False</property>
+												<property name="Caption" vt="String">Transparenz</property>
+												<property name="TabOrder" vt="Int8">15</property>
+												<property name="HaveVariable" vt="False">False</property>
+												<property name="CtrlStyle" vt="Int32">1342308609</property>
+												<property name="CtrlExStyle" vt="Int8">0</property>
+												<property name="Resizing" vt="Set">DockLeft, DockRight, DockTop, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+										<object type="TALabel" name="DetailMap_Label26">
+											<properties>
+												<property name="Left" vt="Int8">16</property>
+												<property name="Top" vt="Int16">168</property>
+												<property name="Width" vt="Int8">92</property>
+												<property name="Height" vt="Int8">17</property>
+												<property name="AutoSize" vt="False">False</property>
+												<property name="Caption" vt="String"> Plane Texture 3</property>
+												<property name="TabOrder" vt="Int8">16</property>
+												<property name="HaveVariable" vt="False">False</property>
+												<property name="CtrlStyle" vt="Int32">1350566144</property>
+												<property name="CtrlExStyle" vt="Int8">0</property>
+												<property name="Resizing" vt="Set">DockLeft, DockTop, DockWidth, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+										<object type="TAInput" name="DetailMap_Input26">
+											<properties>
+												<property name="Left" vt="Int8">16</property>
+												<property name="Top" vt="Int16">185</property>
+												<property name="Width" vt="Int16">185</property>
+												<property name="Height" vt="Int8">21</property>
+												<property name="TabOrder" vt="Int8">17</property>
+												<property name="CtrlStyle" vt="Int32">1342242944</property>
+												<property name="CtrlExStyle" vt="Int16">512</property>
+												<property name="Resizing" vt="Set">DockLeft, DockTop, DockWidth, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+										<object type="TAButton" name="DetailMap_Button26">
+											<properties>
+												<property name="Left" vt="Int8">112</property>
+												<property name="Top" vt="Int16">168</property>
+												<property name="Width" vt="Int8">89</property>
+												<property name="Height" vt="Int8">17</property>
+												<property name="Caption" vt="UTF8String">Auswдhlen</property>
+												<property name="TabOrder" vt="Int8">18</property>
+												<property name="Color" vt="Ident">clBtnFace</property>
+												<property name="CtrlStyle" vt="Int32">1342390272</property>
+												<property name="CtrlExStyle" vt="Int8">0</property>
+												<property name="Resizing" vt="Set">DockLeft, DockTop, DockWidth, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+										<object type="TALabel" name="DetailMap_Label27">
+											<properties>
+												<property name="Left" vt="Int16">208</property>
+												<property name="Top" vt="Int16">168</property>
+												<property name="Width" vt="Int8">100</property>
+												<property name="Height" vt="Int8">17</property>
+												<property name="AutoSize" vt="False">False</property>
+												<property name="Caption" vt="String"> Plane Texture 4</property>
+												<property name="TabOrder" vt="Int8">19</property>
+												<property name="HaveVariable" vt="False">False</property>
+												<property name="CtrlStyle" vt="Int32">1350566144</property>
+												<property name="CtrlExStyle" vt="Int8">0</property>
+												<property name="Resizing" vt="Set">DockLeft, DockTop, DockWidth, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+										<object type="TAButton" name="DetailMap_Button27">
+											<properties>
+												<property name="Left" vt="Int16">310</property>
+												<property name="Top" vt="Int16">168</property>
+												<property name="Width" vt="Int8">91</property>
+												<property name="Height" vt="Int8">17</property>
+												<property name="Caption" vt="UTF8String">Auswдhlen</property>
+												<property name="TabOrder" vt="Int8">20</property>
+												<property name="Color" vt="Ident">clBtnFace</property>
+												<property name="CtrlStyle" vt="Int32">1342390272</property>
+												<property name="CtrlExStyle" vt="Int8">0</property>
+												<property name="Resizing" vt="Set">DockLeft, DockRight, DockTop, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+										<object type="TAInput" name="DetailMap_Input27">
+											<properties>
+												<property name="Left" vt="Int16">208</property>
+												<property name="Top" vt="Int16">185</property>
+												<property name="Width" vt="Int16">193</property>
+												<property name="Height" vt="Int8">21</property>
+												<property name="TabOrder" vt="Int8">21</property>
+												<property name="CtrlStyle" vt="Int32">1342242944</property>
+												<property name="CtrlExStyle" vt="Int16">512</property>
+												<property name="Resizing" vt="Set">DockLeft, DockRight, DockTop, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+										<object type="TACheckbox" name="DetailMap_Checkbox20">
+											<properties>
+												<property name="Left" vt="Int8">16</property>
+												<property name="Top" vt="Int16">272</property>
+												<property name="Width" vt="Int16">129</property>
+												<property name="Height" vt="Int8">17</property>
+												<property name="Caption" vt="String">Fill: AutoFlipRotate</property>
+												<property name="Checked" vt="True">True</property>
+												<property name="State" vt="Ident">cbChecked</property>
+												<property name="TabOrder" vt="Int8">22</property>
+												<property name="CtrlStyle" vt="Int32">1342242819</property>
+												<property name="CtrlExStyle" vt="Int8">0</property>
+												<property name="Resizing" vt="Set">DockLeft, DockTop, DockWidth, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+									</components>
+								</object>
+								<object type="TAButton" name="DetailMap_Button0">
+									<properties>
+										<property name="Left" vt="Int16">322</property>
+										<property name="Top" vt="Int16">316</property>
+										<property name="Width" vt="Int8">89</property>
+										<property name="Height" vt="Int8">25</property>
+										<property name="Caption" vt="UTF8String">Ьbernehmen</property>
+										<property name="TabOrder" vt="Int8">4</property>
+										<property name="Color" vt="Ident">clBtnFace</property>
+										<property name="CtrlStyle" vt="Int32">1342373888</property>
+										<property name="CtrlExStyle" vt="Int8">0</property>
+										<property name="Resizing" vt="Set">DockLeft, DockRight, DockTop, DockWidth, DockHeight</property>
+									</properties>
+									<components/>
+								</object>
+							</components>
+						</object>
+						<object type="TTabSheet" name="Tab1_4">
+							<properties>
+								<property name="Caption" vt="String">Scaler</property>
+								<property name="Font.Charset" vt="Ident">DEFAULT_CHARSET</property>
+								<property name="Font.Color" vt="Ident">clWindowText</property>
+								<property name="Font.Height" vt="Int8">-11</property>
+								<property name="Font.Name" vt="String">MS Sans Serif</property>
+								<property name="Font.Style" vt="Set"/>
+								<property name="ImageIndex" vt="Int8">-1</property>
+								<property name="ParentFont" vt="False">False</property>
+							</properties>
+							<components>
+								<object type="TAGroup" name="Scaler_Group1">
+									<properties>
+										<property name="Left" vt="Int8">4</property>
+										<property name="Top" vt="Int8">-1</property>
+										<property name="Width" vt="Int16">409</property>
+										<property name="Height" vt="Int16">345</property>
+										<property name="CtrlStyle" vt="Int32">1342308359</property>
+										<property name="CtrlExStyle" vt="Int8">0</property>
+										<property name="Caption" vt="String">Scaler</property>
+										<property name="TabOrder" vt="Int8">0</property>
+										<property name="Resizing" vt="Set">DockLeft, DockRight, DockTop, DockHeight</property>
+									</properties>
+									<components>
+										<object type="TAInput" name="Scaler_Input1">
+											<properties>
+												<property name="Left" vt="Int16">312</property>
+												<property name="Top" vt="Int8">48</property>
+												<property name="Width" vt="Int8">89</property>
+												<property name="Height" vt="Int8">21</property>
+												<property name="TabOrder" vt="Int8">0</property>
+												<property name="CtrlStyle" vt="Int32">1342242944</property>
+												<property name="CtrlExStyle" vt="Int16">512</property>
+												<property name="Resizing" vt="Set">DockLeft, DockRight, DockTop, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+										<object type="TAInput" name="Scaler_Input2">
+											<properties>
+												<property name="Left" vt="Int16">312</property>
+												<property name="Top" vt="Int8">104</property>
+												<property name="Width" vt="Int8">89</property>
+												<property name="Height" vt="Int8">21</property>
+												<property name="TabOrder" vt="Int8">1</property>
+												<property name="CtrlStyle" vt="Int32">1342242944</property>
+												<property name="CtrlExStyle" vt="Int16">512</property>
+												<property name="Resizing" vt="Set">DockLeft, DockRight, DockTop, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+										<object type="TAInput" name="Scaler_Input3">
+											<properties>
+												<property name="Left" vt="Int16">312</property>
+												<property name="Top" vt="Int16">160</property>
+												<property name="Width" vt="Int8">89</property>
+												<property name="Height" vt="Int8">21</property>
+												<property name="TabOrder" vt="Int8">2</property>
+												<property name="CtrlStyle" vt="Int32">1342242944</property>
+												<property name="CtrlExStyle" vt="Int16">512</property>
+												<property name="Resizing" vt="Set">DockLeft, DockRight, DockTop, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+										<object type="TALabel" name="Scaler_Label1">
+											<properties>
+												<property name="Left" vt="Int16">312</property>
+												<property name="Top" vt="Int8">30</property>
+												<property name="Width" vt="Int8">89</property>
+												<property name="Height" vt="Int8">17</property>
+												<property name="AutoSize" vt="False">False</property>
+												<property name="Caption" vt="String">Irrlicht Scale: X/Y</property>
+												<property name="TabOrder" vt="Int8">3</property>
+												<property name="HaveVariable" vt="False">False</property>
+												<property name="CtrlStyle" vt="Int32">1342177537</property>
+												<property name="CtrlExStyle" vt="Int8">0</property>
+												<property name="Resizing" vt="Set">DockLeft, DockRight, DockTop, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+										<object type="TALabel" name="Scaler_Label2">
+											<properties>
+												<property name="Left" vt="Int16">312</property>
+												<property name="Top" vt="Int8">86</property>
+												<property name="Width" vt="Int8">89</property>
+												<property name="Height" vt="Int8">17</property>
+												<property name="AutoSize" vt="False">False</property>
+												<property name="Caption" vt="String">Irrlicht Scale: Z</property>
+												<property name="TabOrder" vt="Int8">4</property>
+												<property name="HaveVariable" vt="False">False</property>
+												<property name="CtrlStyle" vt="Int32">1342177537</property>
+												<property name="CtrlExStyle" vt="Int8">0</property>
+												<property name="Resizing" vt="Set">DockLeft, DockRight, DockTop, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+										<object type="TALabel" name="Scaler_Label3">
+											<properties>
+												<property name="Left" vt="Int16">312</property>
+												<property name="Top" vt="Int16">142</property>
+												<property name="Width" vt="Int8">89</property>
+												<property name="Height" vt="Int8">17</property>
+												<property name="AutoSize" vt="False">False</property>
+												<property name="Caption" vt="String"> Detail Scale</property>
+												<property name="TabOrder" vt="Int8">5</property>
+												<property name="HaveVariable" vt="False">False</property>
+												<property name="CtrlStyle" vt="Int32">1342177537</property>
+												<property name="CtrlExStyle" vt="Int8">0</property>
+												<property name="Resizing" vt="Set">DockLeft, DockRight, DockTop, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+										<object type="TASlider" name="Scaler_Slider1">
+											<properties>
+												<property name="Left" vt="Int8">8</property>
+												<property name="Top" vt="Int8">32</property>
+												<property name="Width" vt="Int16">302</property>
+												<property name="Height" vt="Int8">37</property>
+												<property name="Max" vt="Int16">128</property>
+												<property name="Min" vt="Int8">1</property>
+												<property name="Position" vt="Int8">32</property>
+												<property name="TabOrder" vt="Int8">6</property>
+												<property name="ThumbLength" vt="Int8">22</property>
+												<property name="CtrlStyle" vt="Int32">1342177281</property>
+												<property name="CtrlExStyle" vt="Int8">0</property>
+												<property name="Resizing" vt="Set">DockLeft, DockTop, DockWidth, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+										<object type="TASlider" name="Scaler_Slider2">
+											<properties>
+												<property name="Left" vt="Int8">8</property>
+												<property name="Top" vt="Int8">88</property>
+												<property name="Width" vt="Int16">302</property>
+												<property name="Height" vt="Int8">37</property>
+												<property name="Max" vt="Int8">64</property>
+												<property name="Min" vt="Int8">1</property>
+												<property name="Position" vt="Int8">5</property>
+												<property name="TabOrder" vt="Int8">7</property>
+												<property name="ThumbLength" vt="Int8">22</property>
+												<property name="CtrlStyle" vt="Int32">1342177281</property>
+												<property name="CtrlExStyle" vt="Int8">0</property>
+												<property name="Resizing" vt="Set">DockLeft, DockTop, DockWidth, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+										<object type="TASlider" name="Scaler_Slider3">
+											<properties>
+												<property name="Left" vt="Int8">8</property>
+												<property name="Top" vt="Int16">144</property>
+												<property name="Width" vt="Int16">302</property>
+												<property name="Height" vt="Int8">37</property>
+												<property name="Max" vt="Int16">128</property>
+												<property name="Min" vt="Int8">1</property>
+												<property name="Position" vt="Int8">8</property>
+												<property name="TabOrder" vt="Int8">8</property>
+												<property name="ThumbLength" vt="Int8">22</property>
+												<property name="CtrlStyle" vt="Int32">1342177281</property>
+												<property name="CtrlExStyle" vt="Int8">0</property>
+												<property name="Resizing" vt="Set">DockLeft, DockTop, DockWidth, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+										<object type="TAButton" name="Scaler_Button0">
+											<properties>
+												<property name="Left" vt="Int16">317</property>
+												<property name="Top" vt="Int16">317</property>
+												<property name="Width" vt="Int8">89</property>
+												<property name="Height" vt="Int8">25</property>
+												<property name="Caption" vt="UTF8String">Ьbernehmen</property>
+												<property name="TabOrder" vt="Int8">9</property>
+												<property name="Color" vt="Ident">clBtnFace</property>
+												<property name="CtrlStyle" vt="Int32">1342373888</property>
+												<property name="CtrlExStyle" vt="Int8">0</property>
+												<property name="Resizing" vt="Set">DockLeft, DockRight, DockTop, DockWidth, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+									</components>
+								</object>
+							</components>
+						</object>
+						<object type="TTabSheet" name="Tab1_5">
+							<properties>
+								<property name="Caption" vt="String">Starter</property>
+								<property name="Font.Charset" vt="Ident">DEFAULT_CHARSET</property>
+								<property name="Font.Color" vt="Ident">clWindowText</property>
+								<property name="Font.Height" vt="Int8">-11</property>
+								<property name="Font.Name" vt="String">MS Sans Serif</property>
+								<property name="Font.Style" vt="Set"/>
+								<property name="ImageIndex" vt="Int8">-1</property>
+								<property name="ParentFont" vt="False">False</property>
+							</properties>
+							<components>
+								<object type="TAGroup" name="Starter_Group1">
+									<properties>
+										<property name="Left" vt="Int8">4</property>
+										<property name="Top" vt="Int8">-1</property>
+										<property name="Width" vt="Int16">409</property>
+										<property name="Height" vt="Int16">345</property>
+										<property name="CtrlStyle" vt="Int32">1342308359</property>
+										<property name="CtrlExStyle" vt="Int8">0</property>
+										<property name="Caption" vt="String">Starter</property>
+										<property name="TabOrder" vt="Int8">0</property>
+										<property name="Resizing" vt="Set">DockLeft, DockRight, DockTop, DockHeight</property>
+									</properties>
+									<components>
+										<object type="TAPic" name="Starter_Pic1">
+											<properties>
+												<property name="Left" vt="Int8">8</property>
+												<property name="Top" vt="Int8">16</property>
+												<property name="Width" vt="Int16">256</property>
+												<property name="Height" vt="Int16">256</property>
+												<property name="CtrlStyle" vt="Int32">1409417487</property>
+												<property name="CtrlExStyle" vt="Int8">0</property>
+												<property name="TabOrder" vt="Int8">0</property>
+												<property name="Resizing" vt="Set">DockLeft, DockTop, DockWidth, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+										<object type="TAInput" name="Starter_Input1">
+											<properties>
+												<property name="Left" vt="Int16">344</property>
+												<property name="Top" vt="Int8">48</property>
+												<property name="Width" vt="Int8">57</property>
+												<property name="Height" vt="Int8">21</property>
+												<property name="TabOrder" vt="Int8">1</property>
+												<property name="CtrlStyle" vt="Int32">1342242944</property>
+												<property name="CtrlExStyle" vt="Int16">512</property>
+												<property name="Resizing" vt="Set">DockLeft, DockRight, DockTop, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+										<object type="TAInput" name="Starter_Input2">
+											<properties>
+												<property name="Left" vt="Int16">344</property>
+												<property name="Top" vt="Int8">72</property>
+												<property name="Width" vt="Int8">57</property>
+												<property name="Height" vt="Int8">21</property>
+												<property name="TabOrder" vt="Int8">2</property>
+												<property name="CtrlStyle" vt="Int32">1342242944</property>
+												<property name="CtrlExStyle" vt="Int16">512</property>
+												<property name="Resizing" vt="Set">DockLeft, DockRight, DockTop, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+										<object type="TALabel" name="Starter_Label1">
+											<properties>
+												<property name="Left" vt="Int16">272</property>
+												<property name="Top" vt="Int8">48</property>
+												<property name="Width" vt="Int8">68</property>
+												<property name="Height" vt="Int8">21</property>
+												<property name="AutoSize" vt="False">False</property>
+												<property name="Caption" vt="String"> X-Pos:</property>
+												<property name="TabOrder" vt="Int8">3</property>
+												<property name="HaveVariable" vt="False">False</property>
+												<property name="CtrlStyle" vt="Int32">1350566144</property>
+												<property name="CtrlExStyle" vt="Int8">0</property>
+												<property name="Resizing" vt="Set">DockLeft, DockTop, DockWidth, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+										<object type="TALabel" name="Starter_Label2">
+											<properties>
+												<property name="Left" vt="Int16">272</property>
+												<property name="Top" vt="Int8">72</property>
+												<property name="Width" vt="Int8">68</property>
+												<property name="Height" vt="Int8">21</property>
+												<property name="AutoSize" vt="False">False</property>
+												<property name="Caption" vt="String"> Y-Pos:</property>
+												<property name="TabOrder" vt="Int8">4</property>
+												<property name="HaveVariable" vt="False">False</property>
+												<property name="CtrlStyle" vt="Int32">1350566144</property>
+												<property name="CtrlExStyle" vt="Int8">0</property>
+												<property name="Resizing" vt="Set">DockLeft, DockTop, DockWidth, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+										<object type="TAButton" name="Starter_Button1">
+											<properties>
+												<property name="Left" vt="Int16">272</property>
+												<property name="Top" vt="Int8">16</property>
+												<property name="Width" vt="Int16">131</property>
+												<property name="Height" vt="Int8">17</property>
+												<property name="Caption" vt="UTF8String">Von der Map auswдhlen</property>
+												<property name="TabOrder" vt="Int8">5</property>
+												<property name="Color" vt="Ident">clBtnFace</property>
+												<property name="CtrlStyle" vt="Int32">1342390272</property>
+												<property name="CtrlExStyle" vt="Int8">0</property>
+												<property name="Resizing" vt="Set">DockLeft, DockRight, DockTop, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+										<object type="TAButton" name="Starter_Button2">
+											<properties>
+												<property name="Left" vt="Int16">272</property>
+												<property name="Top" vt="Int8">104</property>
+												<property name="Width" vt="Int16">129</property>
+												<property name="Height" vt="Int8">17</property>
+												<property name="Caption" vt="UTF8String">Eintrag zufьgen</property>
+												<property name="TabOrder" vt="Int8">6</property>
+												<property name="Color" vt="Ident">clBtnFace</property>
+												<property name="CtrlStyle" vt="Int32">1342390272</property>
+												<property name="CtrlExStyle" vt="Int8">0</property>
+												<property name="Resizing" vt="Set">DockLeft, DockRight, DockTop, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+										<object type="TAButton" name="Starter_Button3">
+											<properties>
+												<property name="Left" vt="Int16">272</property>
+												<property name="Top" vt="Int16">256</property>
+												<property name="Width" vt="Int16">131</property>
+												<property name="Height" vt="Int8">17</property>
+												<property name="Caption" vt="UTF8String">Eintrag lцschen</property>
+												<property name="TabOrder" vt="Int8">7</property>
+												<property name="Color" vt="Ident">clBtnFace</property>
+												<property name="CtrlStyle" vt="Int32">1342390272</property>
+												<property name="CtrlExStyle" vt="Int8">0</property>
+												<property name="Resizing" vt="Set">DockLeft, DockRight, DockTop, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+										<object type="TAList" name="Starter_List1">
+											<properties>
+												<property name="Left" vt="Int16">272</property>
+												<property name="Top" vt="Int16">136</property>
+												<property name="Width" vt="Int16">129</property>
+												<property name="Height" vt="Int8">110</property>
+												<property name="ItemHeight" vt="Int8">13</property>
+												<property name="TabOrder" vt="Int8">8</property>
+												<property name="CtrlStyle" vt="Int32">1350631427</property>
+												<property name="CtrlExStyle" vt="Int16">512</property>
+												<property name="Resizing" vt="Set">DockLeft, DockRight, DockTop, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+										<object type="TAButton" name="Starter_Button0">
+											<properties>
+												<property name="Left" vt="Int16">317</property>
+												<property name="Top" vt="Int16">317</property>
+												<property name="Width" vt="Int8">89</property>
+												<property name="Height" vt="Int8">25</property>
+												<property name="Caption" vt="UTF8String">Ьbernehmen</property>
+												<property name="TabOrder" vt="Int8">9</property>
+												<property name="Color" vt="Ident">clBtnFace</property>
+												<property name="CtrlStyle" vt="Int32">1342373888</property>
+												<property name="CtrlExStyle" vt="Int8">0</property>
+												<property name="Resizing" vt="Set">DockLeft, DockRight, DockTop, DockWidth, DockHeight</property>
+											</properties>
+											<components/>
+										</object>
+									</components>
+								</object>
+							</components>
+						</object>
+					</components>
+				</object>
+			</components>
+		</object>
+	</components>
+</object>

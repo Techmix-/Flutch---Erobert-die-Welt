@@ -1,0 +1,19 @@
+# File created by luuv TSX
+# Created on: Wed May 16 10:59:47 2007 -1
+
+newmtl CombinedPolyh000
+Ns 0
+Ka 0.540000 0.540000 0.540000
+Kd 1.000000 1.000000 1.000000
+Ks 0.100000 0.100000 0.100000
+d 0.996078
+map_Kd branchC_texture.png 
+
+newmtl CombinedPolyh001
+Ns 0
+Ka 0.520000 0.520000 0.520000
+Kd 1.000000 1.000000 1.000000
+Ks 0.100000 0.100000 0.100000
+d 0.996078
+map_Kd barkrough_texture.png 
+# End

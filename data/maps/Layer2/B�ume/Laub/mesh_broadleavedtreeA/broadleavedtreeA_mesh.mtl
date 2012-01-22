@@ -1,0 +1,18 @@
+# Created on: Wed Nov 21 13:45:31 2007 0x062d6cb0
+
+newmtl treeA000
+Ns 0
+Ka 0.630000 0.630000 0.630000
+Kd 1.000000 1.000000 1.000000
+Ks 0.100000 0.100000 0.100000
+d 0.996078
+map_Kd branchA_texture.tga 
+
+newmtl treeA001
+Ns 0
+Ka 0.370000 0.370000 0.370000
+Kd 1.000000 1.000000 1.000000
+Ks 0.100000 0.100000 0.100000
+d 0.996078
+map_Kd bark_texA.bmp 
+# End

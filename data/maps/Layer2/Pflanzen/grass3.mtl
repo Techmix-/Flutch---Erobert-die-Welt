@@ -1,0 +1,15 @@
+#
+## Alias OBJ Material File
+# Exported from SketchUp, (c) 2000-2006 Google, Inc.
+
+newmtl _Green_
+Ka 0.000000 0.000000 0.000000
+Kd 0.000000 0.501961 0.000000
+Ks 0.330000 0.330000 0.330000
+
+newmtl LightPink_Translucent
+Ka 0.000000 0.000000 0.000000
+Kd 0.568627 0.423529 0.462745
+Ks 0.330000 0.330000 0.330000
+d 0.750000
+
